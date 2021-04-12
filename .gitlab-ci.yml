@@ -12,6 +12,7 @@ job_production:
     - mkdir -p ~/.ssh
     - chmod 700 ~/.ssh
     - echo $config >> ~/.ssh/config
+    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
     - dep deploy production -f deploy.php -vvv
   only:
     - master
