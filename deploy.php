@@ -36,7 +36,7 @@ task('deploy', [
     'deploy:clear_paths',
     'deploy:symlink',
     'deploy:composer',
-    'deploy:symlink_env'
+    'deploy:symlink_env',
     'cleanup',
     'success'
 ]);
