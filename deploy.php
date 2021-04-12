@@ -19,7 +19,7 @@ host('production')
     ->stage('production');
 
 task('deploy:composer_update', function () {
-    run('composer update');
+    run('cd {{deploy_path}}/current && composer update');
 })->desc('Set Symlink');
 
 
@@ -29,8 +29,8 @@ task('deploy', [
     'deploy:release',
     'deploy:update_code',
     'deploy:clear_paths',
-    'deploy:composer_update',
     'deploy:symlink',
+    'deploy:composer_update',
     'cleanup',
     'success'
 ]);
