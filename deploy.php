@@ -18,9 +18,14 @@ host('production')
     ->set('keep_releases', 5)
     ->stage('production');
 
-task('deploy:composer_update', function () {
+task('deploy:composer', function () {
     run('cd {{deploy_path}}/current && composer update');
-})->desc('Set Symlink');
+    run('cd {{deploy_path}}/current && /usr/bin/php artisan key:generate');
+})->desc('Composer Update');
+
+task('deploy:symlink_env', function () {
+    run('ln -sfv {{deploy_path}}/shared/.env && {{deploy_path}}/current/.env');
+})->desc('Symlink .env');
 
 
 desc('Deploy your project');
@@ -30,7 +35,8 @@ task('deploy', [
     'deploy:update_code',
     'deploy:clear_paths',
     'deploy:symlink',
-    'deploy:composer_update',
+    'deploy:composer',
+    'deploy:symlink_env'
     'cleanup',
     'success'
 ]);
