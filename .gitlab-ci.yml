@@ -3,7 +3,7 @@ stages:
 
 job_production:
   stage: deploy
-  image: herloct/deployer
+  image: fajarfebriano/deployer-docker
   script:
     - dep deploy production -f deploy.php -vvv
   only:
