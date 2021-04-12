@@ -18,12 +18,18 @@ host('production')
     ->set('keep_releases', 5)
     ->stage('production');
 
+task('deploy:composer_update', function () {
+    run('composer update');
+})->desc('Set Symlink');
+
+
 desc('Deploy your project');
 task('deploy', [
     'deploy:prepare',
     'deploy:release',
     'deploy:update_code',
     'deploy:clear_paths',
+    'deploy:composer_update',
     'deploy:symlink',
     'cleanup',
     'success'
