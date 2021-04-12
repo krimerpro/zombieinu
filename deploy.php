@@ -1,0 +1,18 @@
+<?php
+namespace Deployer;
+require 'recipe/common.php';
+
+// Configuration
+set('repository', 'https://oauth2:'.getenv('ACCESS_TOKEN').'@gitlab.com/hadronmegantara/wincattoken.git');
+set('ssh_type', 'native');
+set('ssh_multiplexing', false);
+
+# production
+host('production')
+    ->hostname(getenv('IP_PROD'))
+    ->port('22')
+    ->configFile('~/.ssh/config')
+    ->set('branch','master')
+    ->set('deploy_path','/data/project/wincattoken')
+    ->set('keep_releases', 5)
+    ->stage('production');
