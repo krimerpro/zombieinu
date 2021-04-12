@@ -24,7 +24,7 @@ task('deploy:composer', function () {
 })->desc('Composer Update');
 
 task('deploy:symlink_env', function () {
-    run('ln -sfv {{deploy_path}}/shared/.env && {{deploy_path}}/current/.env');
+    run('ln -sfv {{deploy_path}}/shared/.env {{deploy_path}}/current/.env');
 })->desc('Symlink .env');
 
 
