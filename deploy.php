@@ -20,7 +20,7 @@ host('production')
 
 task('deploy:composer', function () {
     run('cd {{deploy_path}}/current && composer update');
-    run('cd {{deploy_path}}/current && /usr/bin/php artisan key:generate');
+    #run('cd {{deploy_path}}/current && /usr/bin/php artisan key:generate');
 })->desc('Composer Update');
 
 task('deploy:symlink_env', function () {
