@@ -11,6 +11,7 @@ set('ssh_multiplexing', false);
 host('production')
     ->hostname(getenv('IP_PROD'))
     ->port('22')
+    ->user('dev')
     ->configFile('~/.ssh/config')
     ->set('branch','master')
     ->set('deploy_path','/data/project/wincattoken')
