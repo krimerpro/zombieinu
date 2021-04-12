@@ -1,0 +1,10 @@
+stages:
+  - deploy
+
+job_production:
+  stage: deploy
+  image: herloct/deployer
+  script:
+    - dep deploy production -f deploy.php -vvv
+  only:
+    - master
