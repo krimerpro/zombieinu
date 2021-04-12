@@ -16,3 +16,17 @@ host('production')
     ->set('deploy_path','/data/project/wincattoken')
     ->set('keep_releases', 5)
     ->stage('production');
+
+desc('Deploy your project');
+task('deploy', [
+    'deploy:prepare',
+    'deploy:release',
+    'deploy:update_code',
+    'deploy:clear_paths',
+    'deploy:symlink',
+    'cleanup',
+    'success'
+]);
+
+after('deploy', 'success');
+
