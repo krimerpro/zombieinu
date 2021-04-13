@@ -62,10 +62,10 @@
                 <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item animated" data-animation="fadeInDown" data-animation-delay="1.3s">
-                <a class="nav-link" href="index.html#whitepaper">Whitepaper</a>
+                <a class="nav-link" href="#whitepaper">Whitepaper</a>
             </li>
             <li class="nav-item animated" data-animation="fadeInDown" data-animation-delay="1.5s">
-                <a class="nav-link" href="index.html#roadmap">Roadmap</a>
+                <a class="nav-link" href="#roadmap">Roadmap</a>
             </li>
         </ul>
         <span id="slide-line"></span>
