@@ -63,7 +63,4 @@
 
 <script src="{{ asset('/js/theme.min.js') }}"></script>
 
-<script src="{{ asset('/js/sales-notification.js') }}"></script>
-
-<script src="{{ asset('/js/demo.min.js') }}"></script>
 <script src="{{ asset('/js/particles-type1.min.js') }}"></script>

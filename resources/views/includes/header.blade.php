@@ -32,10 +32,10 @@
 </div>
 <!--/ Preloader --><nav class="vertical-social">
 <ul>
-    <li><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
-    <li><a href="#"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
-    <li><a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-    <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+    <li><a href="https://t.me/wincattoken" target="_blank"><i class="fa fa-paper-plane" aria-hidden="true"></i></a></li>
+    <li><a href="mailto:wincattoken@gmail.com" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
+    <li><a href="https://twitter.com/wincattoken" target="_blank"> <i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+    <!-- <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> -->
 </ul>
 </nav>
 

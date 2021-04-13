@@ -32,81 +32,129 @@
 </div>
 </section>
 <!--/ Header: 3D Animation -->
+
+<!-- Tokenomics -->
+<section class="about section-padding" id="tokenomics">
+<div class="container">
+    <div class="heading text-center">
+        <div class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.3s">
+            <h6 class="sub-title">Tokenomics</h6>
+            <h2 class="title">Tokenomics</h2>
+        </div>
+    </div>
+    <div class="content-area" style="color:#ffffff">
+        <div class="row">
+            <div class="col-md-4 col-lg-4">
+                <div style="margin-bottom:15px;border-bottom-style: solid;">
+                    <h3 style="font-size:16px">Token Symbol</h3>
+                    <h4 style="font-size:24px">WINCAT</h4>
+                </div>
+
+                <div style="margin-bottom:15px;border-bottom-style: solid;">
+                    <h3 style="font-size:16px">Max Supply</h3>
+                    <h4 style="font-size:24px">1 Quadrillion</h4>
+                </div>
+
+                <div style="margin-bottom:15px;">
+                    <h3 style="font-size:16px">Decimals</h3>
+                    <h4 style="font-size:24px">18</h4>
+                </div>
+            </div>
+
+            <div class="col-md-8 col-lg-8">
+                <div style="margin-bottom:15px">
+                    <p style="color:#ffffff;text-align:center">Total WINCAT Token Will be burn 650 Trillion tokens</p>
+
+                    <div class="row">
+                      <div class="col-md-1 col-lg-1">&nbsp;</div>
+
+                      <div class="col-md-5 col-lg-5">
+                          <p style="color:#ffffff">Initial Burn 200 Trillion tokens</p>
+                          <p style="color:#ffffff">5K Holders Burn 50 Trillion tokens</p>
+                          <p style="color:#ffffff">10K Holders Burn 100 Trillion tokens</p>
+                      </div>
+
+                      <div class="col-md-5 col-lg-5">
+                          <p style="color:#ffffff">20K Holders Burn 100 Trillion tokens</p>
+                          <p style="color:#ffffff">30K Holders Burn 100 Trillion tokens</p>
+                          <p style="color:#ffffff">50K Holders Burn 100 Trillion tokens</p>
+                      </div>
+
+                      <div class="col-md-1 col-lg-1">&nbsp;</div>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 col-lg-4">&nbsp;</div>
+
+          <div class="col-md-8 col-lg-8">
+              <div style="text-align:center">
+                  <h3 style="font-size:16px;">Smart Contract | BSC</h3>
+              </div>
+
+              <div class="row" style="border:dashed;">
+                <div class="col-md-1 col-lg-1">&nbsp;</div>
+                  <div class="col-md-2 col-lg-2" style="text-align:center;margin:auto">
+                      <img src="{{ asset('images/bsc-logo.svg') }}" style="height:75px">
+                  </div>
+
+                  <div class="col-md-9 col-lg-9">
+
+                      <div style="-webkit-box-shadow: 0px 28px 28px -24px rgb(56 62 86 / 25%);box-shadow: 0px 28px 28px -24px rgb(56 62 86 / 25%);border-radius: 12px;padding: 16px 20px;text-decoration: none !important;display: block;">
+                          <div class="text-center">
+                            <input type="text" value="0xd8e9d1183cde925d292586d699fa34848107830a" id="smartcontractaddress" readonly style="width:100%;text-align:center;color:#ffffff;background:none;border:none" />
+                          </div>
+                          <button type="button" style="cursor: pointer;border-radius:15px;width:100%" class="btn btn-primary" onclick="copyContract()">
+                              <span class="fa fa-copy"></span>
+                              Copy
+                          </button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+</div>
+</section>
+<!--/ Tokenonmics -->
+
 <!-- About -->
 <section class="about section-padding" id="about">
 <div class="container">
     <div class="heading text-center">
         <div class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.3s">
             <h6 class="sub-title">About</h6>
-            <h2 class="title">What is Crypto ICO</h2>
+            <h2 class="title">About</h2>
         </div>
-        <p class="content-desc animated" data-animation="fadeInUpShorter" data-animation-delay="0.4s">Crypto ICO aims to disrupt the cryptotrading industry by lowering the barrier
-            <br class="d-none d-xl-block">to creating algorithmic trading models.</p>
     </div>
+
     <div class="content-area">
         <div class="row">
-            <div class="col-md-12 col-lg-6">
-                <h4 class="title animated" data-animation="fadeInUpShorter" data-animation-delay="0.5s">We built a platform for <br class="d-none d-xl-block"> The crypto trading Industry</h4>
-                <h6 class="pt-4 pb-2 animated" data-animation="fadeInUpShorter" data-animation-delay="0.6s">Cryptocurrency exchanges or digital currency exchanges (DCE) are businesses that allow customers to trade cryptocurrencies or digital currencies for other assets.</h6>
-                <p class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.7s">Cryptocurrency exchanges or digital currency exchanges (DCE) are businesses that allow customers to trade cryptocurrencies or digital currencies for other assets</p>
-                <p class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.8s">Creators of digital currencies are often independent of the DCEs that trade the currency.[6] In one type of system, digital currency providers (DCP), are businesses that keep and administer accounts.</p>
+            <div class="col-md-4 col-lg-4">
+                <p style="color:#ffffff">Do you know why this waving cat statue is widely displayed in business premises.</p>
+                <p style="color:#ffffff">Well, a little review, this waving cat statue is familiarly called maneki neko, in Japanese it.</p>
             </div>
-            <div class="col-md-12 col-lg-6 animated" data-animation="fadeInUpShorter" data-animation-delay="0.7s">
-                <div class="position-relative what-is-crypto-img float-xl-right">
-                    <img class="img-fluid" src="https://pixinvent.com/demo/crypto-ico/theme-assets/images-3d-animation/what-is-crypto.png" alt="What is Crypto?">
-                    <div class="play-video text-center">
-                        <a href="#" class="play rounded-circle btn-gradient-purple btn-glow video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/UXAJu3zS4bU" data-target="#ico-modal"><i class="ti-control-play"></i></a>
-                        <span class="mt-2 d-none d-md-block">How it works</span>
-                    </div>
-                </div>
+
+            <div class="col-md-4 col-lg-4">
+                <p style="color:#ffffff">This is where our inspiration to name our token WINCAT makes the cat of victory after the token's name,</p>
+                <p style="color:#ffffff">and makes this motivation so that every holder can enjoy the profit from the name of this token</p>
+                <p style="color:#ffffff">NFT's (non fungible tokens) are a special type of cryptographic token which represents something unique; non-fungible tokens are thus not mutually interchangeable. We choose Win Cats for our platform because they are unique as NFTs.</p>
+            </div>
+
+            <div class="col-md-4 col-lg-4">
+                <p style="color:#ffffff">On our website, anyone can make their own work or art and enter it into our NFT marketplace to be traded using WINCAT tokens.</p>
+                <p style="color:#ffffff">This is the future for those of you who have a hobby or do work in the arts</p>
+                <p style="color:#ffffff">Do you know why this waving cat statue is widely displayed in business premises.</p>
             </div>
         </div>
     </div>
 </div>
 </section>
 <!--/ About -->
-<!-- Problems & Solutions -->
-<section id="problem-solution" class="problem-solution section-pro section-padding ">
-<div class="container">
-    <div class="heading text-center">
-        <div class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.3s">
-            <h6 class="sub-title">Solutions</h6>
-            <h2 class="title">Problems &amp; <strong>Solutions</strong></h2>
-        </div>
-        <p class="content-desc animated" data-animation="fadeInUpShorter" data-animation-delay="0.4s">More than $40 million in assets were placed under restraint pending forfeiture, and more than 30
-            <br class="d-none d-xl-block">Liberty Reserve exchanger domain names were seized.</p>
-    </div>
-    <div class="problems">
-        <div class="row">
-            <div class="col-md-12 col-lg-6">
-                <div class="heading mb-4">
-                    <h4 class="title animated" data-animation="fadeInUpShorter" data-animation-delay="0.2s">Problems</h4>
-                </div>
-                <p class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.4s">Different pieces of the new Internet are born as building blocks, but there’s no way for them to work together.</p>
-                <p class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.6s">Even interoperating new technologies with old centralised resources can prove useful in making the paradigm shift from Web 2 to Web 3 happen. Now we own our data, we can prove that we own what we have and have created it on different platforms, but how do we put it together into a whole new cohesive framework.</p>
-            </div>
-            <div class="col-md-12 col-lg-6 text-center">
-                <img src="https://pixinvent.com/demo/crypto-ico/theme-assets/images-3d-animation/problems-graphic.png" class="problems-img animated" data-animation="fadeInUpShorter" data-animation-delay="0.5s" alt="problems-graphic">
-            </div>
-        </div>
-    </div>
-    <div class="solutions mt-5">
-        <div class="row">
-            <div class="col-md-12 col-lg-6 text-center">
-                <img src="https://pixinvent.com/demo/crypto-ico/theme-assets/images-3d-animation/solutions-graphic.png" class="solutions-img animated" data-animation="fadeInUpShorter" data-animation-delay="0.5s" alt="problems-graphic">
-            </div>
-            <div class="col-md-12 col-lg-6 move-first">
-                <div class="heading mb-4">
-                    <h4 class="title animated" data-animation="fadeInUpShorter" data-animation-delay="0.2s">Solutions</h4>
-                </div>
-                <p class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.5s">Decentralized cryptocurrency is produced by the entire cryptocurrency system collectively, at a rate which is defined when the system is created and which is publicly known.</p>
-                <p class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.7s">In centralized banking and economic systems such as the Federal Reserve System, corporate boards or governments control the supply of currency by printing units of fiat money or demanding additions to digital banking ledgers.</p>
-            </div>
-        </div>
-    </div>
-</div>
-</section>
-<!--/ Problems & Solutions -->
+
 <!-- Whitepaper -->
 <section id="whitepaper" class="whitepaper section-padding">
 <div class="container">
@@ -1553,114 +1601,19 @@
 </div>
 <!-- //////////////////////////////////// FOOTER ////////////////////////////////////-->
 
-<!-- Demo fullscreen-overlay -->
-<div class="fullscreen-overlay">
-<div class="wrap mt-2">
-    <button class="btn btn-default btn-sm btn-close fullscreen-overlay-open float-right"><i class="ti-close"></i></button>
-    <!-- Add Banner -->
-    <div class="crypto-ico-add my-4">
-        <div class="row">
-            <div class="col-12 col-12 text-center">
-                <a href="https://1.envato.market/cryptoico_html" target="_blank"><img class="img-fluid img-add-banner" src="https://pixinvent.com/demo/crypto-ico/images/demo/offer-banner.jpg" alt="Crypto ICO add banner"></a>
-            </div>
-        </div>
-    </div>
-    <!--/ Add Banner -->
-    <div class="crypto-ico-demo">
-        <div class="row pb-4">
-            <div class="col-12 col-md-6">
-                <p class="ico-demo-sub-title mb-1">Semi Light Layout</p>
-                <h6 class="ico-demo-title text-uppercase font-weight-bold">Counter Landing Page</h6>
-                <a href="https://pixinvent.com/demo/crypto-ico/html/ltr/template-counter/">
-                    <img class="img-fluid mb-1 mt-2" src="https://pixinvent.com/demo/crypto-ico/images/demo/template-counter.jpg" alt="Counter Landing Page">
-                </a>
-                <ul class="nav justify-content-center mt-3">
-                    <li class="nav-item mr-2">
-                        <a href="https://pixinvent.com/demo/crypto-ico/html/ltr/template-counter/template-counter-ripple.html" class="ico-demo-link nav-link btn btn-sm btn-outline-light">Ripple</a>
-                    </li>
-                    <li class="nav-item mr-2">
-                        <a href="https://pixinvent.com/demo/crypto-ico/html/ltr/template-counter/template-counter-particle.html" class="ico-demo-link nav-link btn btn-sm btn-outline-light">Particle</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://pixinvent.com/demo/crypto-ico/html/ltr/template-counter/template-counter-classic.html" class="ico-demo-link nav-link btn btn-sm btn-outline-light">Classic</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-12 col-md-6">
-                <p class="ico-demo-sub-title mb-1">Dark + Light Layout</p>
-                <h6 class="ico-demo-title text-uppercase font-weight-bold">3D Graphic Landing Page</h6>
-                <a href="https://pixinvent.com/demo/crypto-ico/html/ltr/template-3d-graphics/">
-                    <img class="img-fluid mb-1 mt-2" src="https://pixinvent.com/demo/crypto-ico/images/demo/template-3d-graphics.jpg" alt="Template with Counter">
-                </a>
-                <ul class="nav justify-content-center mt-3">
-                    <li class="nav-item mr-2">
-                        <a href="https://pixinvent.com/demo/crypto-ico/html/ltr/template-3d-graphics/template-3d-graphic-ripple.html" class="ico-demo-link nav-link btn btn-sm btn-outline-light">Ripple</a>
-                    </li>
-                    <li class="nav-item mr-2">
-                        <a href="https://pixinvent.com/demo/crypto-ico/html/ltr/template-3d-graphics/template-3d-graphic-particle.html" class="ico-demo-link nav-link btn btn-sm btn-outline-light">Particle</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://pixinvent.com/demo/crypto-ico/html/ltr/template-3d-graphics/template-3d-graphic-classic.html" class="ico-demo-link nav-link btn btn-sm btn-outline-light">Classic</a>
-                    </li>
-                </ul>
-            </div><!--
-            <div class="col-12 col-md-6">
-                <p class="ico-demo-sub-title mb-1">ICO Dashboard</p>
-                <h6 class="ico-demo-title text-uppercase font-weight-bold">Crypto ICO admin panel</h6>
-                <a href="https://pixinvent.com/demo/crypto-ico-admin/html/ltr/vertical-menu/" target="_blank">
-                    <img class="img-fluid mb-1 mt-2" src="https://pixinvent.com/demo/crypto-ico/images/demo/ico-dashboard.jpg" alt="Crypto ICO admin panel">
-                </a>
-                <ul class="nav justify-content-center mt-3">
-                    <li class="nav-item mr-2">
-                        <a href="https://pixinvent.com/demo/crypto-ico-admin/html/ltr/vertical-menu/" class="ico-demo-link nav-link btn btn-sm btn-outline-light">LTR</a>
-                    </li>
-                    <li class="nav-item mr-2">
-                        <a href="https://pixinvent.com/demo/crypto-ico-admin/html/rtl/vertical-menu/" target="_blank" class="ico-demo-link nav-link btn btn-sm btn-outline-light">RTL</a>
-                    </li>
-                </ul>
-            </div> -->
-        </div>
-        <div class="row py-4">
-            <div class="col-12 col-md-6">
-                <p class="ico-demo-sub-title mb-1">Dark Layout</p>
-                <h6 class="ico-demo-title text-uppercase font-weight-bold">3D Animated Graphic Landing Page</h6>
-                <a href="index-2.html">
-                    <img class="img-fluid mb-1 mt-2" src="https://pixinvent.com/demo/crypto-ico/images/demo/template-3d-animation.jpg" alt="Template with Counter">
-                </a>
-                <ul class="nav justify-content-center mt-3">
-                    <li class="nav-item mr-2">
-                        <a href="template-3d-animation-ripple.html" class="ico-demo-link nav-link btn btn-sm btn-outline-light">Ripple</a>
-                    </li>
-                    <li class="nav-item mr-2">
-                        <a href="template-3d-animation-particle.html" class="ico-demo-link nav-link btn btn-sm btn-outline-light">Particle</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="template-3d-animation-classic.html" class="ico-demo-link nav-link btn btn-sm btn-outline-light">Classic</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-12 col-md-6">
-                <p class="ico-demo-sub-title mb-1">Light Layout</p>
-                <h6 class="ico-demo-title text-uppercase font-weight-bold">Intro Video Landing Page </h6>
-                <a href="https://pixinvent.com/demo/crypto-ico/html/ltr/template-intro-video/">
-                    <img class="img-fluid mb-1 mt-2" src="https://pixinvent.com/demo/crypto-ico/images/demo/template-intro-video.jpg" alt="Intro Video Landing Page">
-                </a>
-                <ul class="nav justify-content-center mt-3">
-                    <li class="nav-item mr-2">
-                        <a href="https://pixinvent.com/demo/crypto-ico/html/ltr/template-intro-video/template-intro-video-ripple.html" class="ico-demo-link nav-link btn btn-sm btn-outline-light">Ripple</a>
-                    </li>
-                    <li class="nav-item mr-2">
-                        <a href="https://pixinvent.com/demo/crypto-ico/html/ltr/template-intro-video/template-intro-video-particle.html" class="ico-demo-link nav-link btn btn-sm btn-outline-light">Particle</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://pixinvent.com/demo/crypto-ico/html/ltr/template-intro-video/template-intro-video-classic.html" class="ico-demo-link nav-link btn btn-sm btn-outline-light">Classic</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
-<!--/ Demo fullscreen-overlay -->
+<script type="text/javascript">
+
+  function copyContract() {
+    var copyText = document.getElementById("smartcontractaddress");
+
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+    document.execCommand("copy");
+
+    alert("Text copied to clipboard");
+  }
+
+</script>
 
 @stop
