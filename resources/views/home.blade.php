@@ -212,6 +212,60 @@
 <!--/ Roadmap -->
 
 
+<?php
+  if($agent->isMobile()){
+?>
+
+<!-- Community -->
+<section id="community" class="roadmap section-padding">
+<div class="container">
+    <div class="heading text-center">
+        <div class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.3s">
+            <h6 class="sub-title">Community</h6>
+            <h2 class="title">Community</h2>
+        </div>
+    </div>
+
+    <div class="row animated" data-animation="fadeInUpShorter" data-animation-delay="0.6s" style="text-align:center">
+        <div class="row" style="margin:auto;width:100%">
+            <div class="col-md-12">
+                <a href="https://t.me/wincattoken" target="_blank" class="btn btn-primary" style="background:white;color:#007BFF;font-size:16px;width:100%">
+                    <img src="{{ asset('images/telegram.svg') }}" style="width:50px;height:50px" />
+                    View on Telegram
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row animated" data-animation="fadeInUpShorter" data-animation-delay="0.6s" style="text-align:center;margin-top:15px">
+        <div class="row" style="margin:auto;width:100%">
+            <div class="col-md-12">
+                <a href="https://twitter.com/wincattoken" target="_blank" class="btn btn-primary" style="background:white;color:#007BFF;font-size:16px;width:100%">
+                    <img src="{{ asset('images/twitter.svg') }}" style="width:50px;height:50px" />
+                    View on Twitter
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row animated" data-animation="fadeInUpShorter" data-animation-delay="0.6s" style="text-align:center;margin-top:15px">
+        <div class="row" style="margin:auto;width:100%">
+            <div class="col-md-12">
+                <a href="mailto:wincattoken@gmail.com" target="_blank" class="btn btn-primary" style="background:white;color:#007BFF;font-size:16px;width:100%">
+                    <img src="{{ asset('images/gmail.svg') }}" style="width:50px;height:50px" />
+                    Mail Us Directly
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!--/ Community -->
+
+<?php
+  }
+?>
+
     </main>
   </div>
 </div>

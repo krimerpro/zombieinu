@@ -67,6 +67,16 @@
             <li class="nav-item animated" data-animation="fadeInDown" data-animation-delay="1.5s">
                 <a class="nav-link" href="#roadmap">Roadmap</a>
             </li>
+
+            <?php
+              if($agent->isMobile()){
+            ?>
+                <li class="nav-item animated" data-animation="fadeInDown" data-animation-delay="1.5s">
+                    <a class="nav-link" href="#community">Community</a>
+                </li>
+            <?php
+              }
+            ?>
         </ul>
         <span id="slide-line"></span>
         <form class="form-inline mt-2 mt-md-0 text-right" style="margin-left:auto">
