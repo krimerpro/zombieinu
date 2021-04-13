@@ -1,3 +1,7 @@
+<?php
+  if(Route::current()->getName() != 'nft'){
+?>
+
 <footer class="footer static-bottom footer-dark footer-custom-class" data-midnight="white"><div class="container">
 <div class="footer-wrapper">
 <div class="row">
@@ -19,6 +23,8 @@
 </div>
 </div>
 </footer>
+
+<?php } ?>
 
 <script src="{{ asset('/js/vendors.min.js') }}"></script>
 

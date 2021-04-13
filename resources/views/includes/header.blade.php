@@ -41,6 +41,10 @@
 
 <!-- /////////////////////////////////// HEADER /////////////////////////////////////-->
 
+<?php
+  if(Route::current()->getName() != 'nft'){
+?>
+
 <!-- Header Start-->
 <header class="page-header">
   <!-- Horizontal Menu Start-->
@@ -80,7 +84,7 @@
         </ul>
         <span id="slide-line"></span>
         <form class="form-inline mt-2 mt-md-0 text-right" style="margin-left:auto">
-            <a class="btn btn-sm btn-gradient-purple btn-glow my-2 my-sm-0 animated" data-animation="fadeInDown" data-animation-delay="1.8s" href="#" target="_blank">NFT Market</a>
+            <a class="btn btn-sm btn-gradient-purple btn-glow my-2 my-sm-0 animated" data-animation="fadeInDown" data-animation-delay="1.8s" href="/nft">NFT Market</a>
         </form>
     </div>
 </div>
@@ -89,3 +93,5 @@
   <!-- /Horizontal Menu End-->
 </header>
 <!-- /Header End-->
+
+<?php } ?>

@@ -4,7 +4,19 @@
    @include('includes.head')
 </head>
 <body class=" 1-column undefined  page-animated svg-wrapper" data-menu-open="hover" data-menu="">
-<div class="container">
+
+<?php
+  if(Route::current()->getName() != 'nft'){
+?>
+    <div class="container">
+
+<?php
+  } else{
+?>
+    <div>
+<?php
+  }
+?>
    <header class="row">
        @include('includes.header')
    </header>

@@ -11,4 +11,9 @@ class HomeController extends Controller
       $agent = new Agent();
       return view('home', ['agent' => $agent]);
     }
+
+    function nft(){
+      $agent = new Agent();
+      return view('nft', ['agent' => $agent]);
+    }
 }
