@@ -22,7 +22,7 @@
     <!-- Change the preloader logo here -->
     <defs>
         <pattern id="loaderImage" height="100%" width="100%" patternContentUnits="objectBoundingBox">
-            <image href="{{ asset('images/logo.jpeg') }}" preserveAspectRatio="none" width="1" height="1"></image>
+            <image href="{{ asset('images/logo.PNG') }}" preserveAspectRatio="none" width="1" height="1"></image>
         </pattern>
     </defs>
 </svg>
@@ -32,9 +32,9 @@
 </div>
 <!--/ Preloader --><nav class="vertical-social">
 <ul>
-    <li><a href="https://t.me/wincattoken" target="_blank"><i class="fa fa-paper-plane" aria-hidden="true"></i></a></li>
-    <li><a href="mailto:wincattoken@gmail.com" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
-    <li><a href="https://twitter.com/wincattoken" target="_blank"> <i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+    <li><a href="https://t.me/arabianapegrowportal" target="_blank"><i class="fa fa-paper-plane" aria-hidden="true"></i></a></li>
+    <li><a href="mailto:arabianapegrow@gmail.com" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
+    <li><a href="https://twitter.com/arabianapegrow" target="_blank"> <i class="fa fa-twitter" aria-hidden="true"></i></a></li>
     <!-- <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> -->
 </ul>
 </nav>
@@ -57,7 +57,7 @@
     <div id="navigation" class="navbar-nav" style="width:100%">
         <ul class="navbar-nav mt-1">
             <li class="nav-item animated" data-animation="fadeInDown" data-animation-delay="1.1s">
-                <a class="nav-link" href="/" style="color:pink">WINCAT</a>
+                <a class="nav-link" href="/" style="color:pink">ARABIAN APE GROW</a>
             </li>
             <li class="nav-item animated" data-animation="fadeInDown" data-animation-delay="1.1s">
                 <a class="nav-link" href="#tokenomics">Tokenomics</a>

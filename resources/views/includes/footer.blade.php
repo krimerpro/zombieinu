@@ -9,7 +9,7 @@
   <div class="col-md-2 col-lg-2" style="text-align:center">
     <div class="about">
       <div class="title animated" data-animation="fadeInUpShorter" data-animation-delay="0.2s">
-        <img src="{{ asset('images/logo.jpeg') }}" alt="Logo" style="width:100%;height:100%;border-radius:50%">
+        <img src="{{ asset('images/logo.png') }}" alt="Logo" style="width:100%;height:100%;border-radius:50%">
       </div>
 
     </div>
@@ -18,7 +18,7 @@
     <div class="col-md-5 col-lg-5">&nbsp;</div>
 </div>
 <div class="copy-right mx-auto text-center">
-  <span class="copyright">Copyright &copy; 2021, WINCAT Token.</span>
+  <span class="copyright">Copyright &copy; 2022, ARABIAN APE GROW TEAM.</span>
 </div>
 </div>
 </div>

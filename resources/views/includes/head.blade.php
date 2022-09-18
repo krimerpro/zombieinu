@@ -3,11 +3,12 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<meta name="description" content="WINCAT Token | BSC">
-<meta name="keywords" content="crypto, wincat, wincattoken, bitcoin, bsc, binance, binancesmartchain">
-<meta name="author" content="WINCAT">
+<meta name="description" content="ARABIAN APE GROW | BSC">
+<meta name="keywords" content="crypto, arabian, ape, arabianapegrow, bitcoin, bsc, binance, binancesmartchain">
+<meta name="author" content="ARABIAN APE GROW">
 
-<title>WINCAT Token | BSC</title>
+<title>ARABIAN APE GROW | BSC</title>
+<link rel="icon" type="image/x-icon" href="{{ asset('images/logo.png') }}">
 
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,700" rel="stylesheet">

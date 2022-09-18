@@ -3,7 +3,7 @@ namespace Deployer;
 require 'recipe/common.php';
 
 // Configuration
-set('repository', 'https://oauth2:'.getenv('ACCESS_TOKEN').'@gitlab.com/hadronmegantara/wincattoken.git');
+set('repository', 'https://oauth2:'.getenv('ACCESS_TOKEN').'@gitlab.com/hadronmegantara/arabianapegrow.git');
 set('ssh_type', 'native');
 set('ssh_multiplexing', false);
 
@@ -14,7 +14,7 @@ host('production')
     ->user('dev')
     ->configFile('~/.ssh/config')
     ->set('branch','master')
-    ->set('deploy_path','/data/project/wincattoken')
+    ->set('deploy_path','/data/project/arabianapegrow')
     ->set('keep_releases', 5)
     ->stage('production');
 
@@ -42,4 +42,3 @@ task('deploy', [
 ]);
 
 after('deploy', 'success');
-
