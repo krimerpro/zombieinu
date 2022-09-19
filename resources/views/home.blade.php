@@ -52,7 +52,7 @@
 
                 <div style="margin-bottom:15px;border-bottom-style: solid;">
                     <h3 style="font-size:16px">Max Supply</h3>
-                    <h4 style="font-size:24px">1 Million</h4>
+                    <h4 style="font-size:24px">1.000.000.000.000.000</h4>
                 </div>
 
                 <div style="margin-bottom:15px;">
@@ -64,7 +64,7 @@
             <div class="col-md-6 col-lg-6">
                 <div style="margin-bottom:15px;border-bottom-style: solid;">
                     <h3 style="font-size:16px">Tax</h3>
-                    <h4 style="font-size:24px">3% Buy | 3% Sell</h4>
+                    <h4 style="font-size:24px">8% Buy | 8% Sell</h4>
                 </div>
 
                 <div style="margin-bottom:15px;border-bottom-style: solid;">
@@ -219,7 +219,7 @@
     <div class="row animated" data-animation="fadeInUpShorter" data-animation-delay="0.6s" style="text-align:center">
         <div class="row" style="margin:auto;width:100%">
             <div class="col-md-12">
-                <a href="https://t.me/arabianapegrowportal" target="_blank" class="btn btn-primary" style="background:white;color:#007BFF;font-size:16px;width:100%">
+                <a href="https://t.me/ArabianApeGrow" target="_blank" class="btn btn-primary" style="background:white;color:#007BFF;font-size:16px;width:100%">
                     <img src="{{ asset('images/telegram.svg') }}" style="width:50px;height:50px" />
                     View on Telegram
                 </a>
@@ -230,7 +230,7 @@
     <div class="row animated" data-animation="fadeInUpShorter" data-animation-delay="0.6s" style="text-align:center;margin-top:15px">
         <div class="row" style="margin:auto;width:100%">
             <div class="col-md-12">
-                <a href="https://twitter.com/arabianapegrow" target="_blank" class="btn btn-primary" style="background:white;color:#007BFF;font-size:16px;width:100%">
+                <a href="https://twitter.com/ArabianApeGrow" target="_blank" class="btn btn-primary" style="background:white;color:#007BFF;font-size:16px;width:100%">
                     <img src="{{ asset('images/twitter.svg') }}" style="width:50px;height:50px" />
                     View on Twitter
                 </a>
