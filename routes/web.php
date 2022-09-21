@@ -15,4 +15,4 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
-Route::get('/nft', [HomeController::class, 'nft'])->name('nft');
+Route::get('/marketplace', [HomeController::class, 'marketplace'])->name('marketplace');

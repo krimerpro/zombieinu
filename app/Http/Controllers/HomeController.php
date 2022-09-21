@@ -12,8 +12,8 @@ class HomeController extends Controller
       return view('home', ['agent' => $agent]);
     }
 
-    function nft(){
+    function marketplace(){
       $agent = new Agent();
-      return view('nft', ['agent' => $agent]);
+      return view('marketplace', ['agent' => $agent]);
     }
 }
