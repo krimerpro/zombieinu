@@ -22,9 +22,9 @@
                         <h1 class="best-template animated" data-animation="fadeInUpShorter" data-animation-delay="1.5s" style="color:green">SHIBA KING COIN</h1>
                         <h3 class="d-block white animated" data-animation="fadeInUpShorter" data-animation-delay="1.6s" style="color:green">Shiba King Coin is a decentralized,transparent and reliable meme token!</h3>
                         <div class="mt-5">
-                            <a href="https://bscscan.com/token/0x08481EE9c9239D2592e0985fe6aB0B39a73D0a59" target="_blank" class="btn btn-lg btn-gradient-purple btn-glow mr-4 mb-2 animated" data-animation="fadeInUpShorter" data-animation-delay="1.7s" style="background:green">Token Info</a>
+                            <a href="https://bscscan.com/token/" target="_blank" class="btn btn-lg btn-gradient-purple btn-glow mr-4 mb-2 animated" data-animation="fadeInUpShorter" data-animation-delay="1.7s" style="background:green">Token Info</a>
                             <a href="https://t.me/ShibaKingCoin" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:green">Telegram</a>
-                            <a href="https://poocoin.app/tokens/0x08481EE9c9239D2592e0985fe6aB0B39a73D0a59" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:green;margin-left: 25px">Chart</a>
+                            <a href="https://poocoin.app/tokens/" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:green;margin-left: 25px">Chart</a>
                         </div>
                     </div>
                 </div>
@@ -66,17 +66,17 @@
             <div class="col-md-6 col-lg-6">
                 <div style="margin-bottom:15px;border-bottom-style: solid;">
                     <h3 style="font-size:16px">Tax</h3>
-                    <h4 style="font-size:24px; color:green">7% Buy | 7% Sell</h4>
+                    <h4 style="font-size:24px; color:green">4% Buy | 4% Sell</h4>
                 </div>
 
                 <div style="margin-bottom:15px;border-bottom-style: solid;">
                     <h3 style="font-size:16px; color:green">Max Wallet</h3>
-                    <h4 style="font-size:24px; color:green">2%</h4>
+                    <h4 style="font-size:24px; color:green">3%</h4>
                 </div>
 
                 <div style="margin-bottom:15px;">
                     <h3 style="font-size:16px; color:green">Max Tx</h3>
-                    <h4 style="font-size:24px; color:green">2%</h4>
+                    <h4 style="font-size:24px; color:green">3%</h4>
                 </div>
             </div>
         </div>
@@ -97,7 +97,7 @@
 
                       <div style="-webkit-box-shadow: 0px 28px 28px -24px rgb(56 62 86 / 25%);box-shadow: 0px 28px 28px -24px rgb(56 62 86 / 25%);border-radius: 12px;padding: 16px 20px;text-decoration: none !important;display: block;">
                           <div class="text-center">
-                            <input type="text" value="0x08481EE9c9239D2592e0985fe6aB0B39a73D0a59" id="smartcontractaddress" readonly style="width:100%;text-align:center;color:green;background:none;border:none" />
+                            <input type="text" value="0xxxxx" id="smartcontractaddress" readonly style="width:100%;text-align:center;color:green;background:none;border:none" />
                           </div>
                           <button type="button" style="cursor: pointer;border-radius:15px;width:100%" class="btn btn-primary" onclick="copyContract()">
                               <span class="fa fa-copy"></span>
