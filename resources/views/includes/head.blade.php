@@ -3,11 +3,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<meta name="description" content="ARABIAN APE GROW | BSC">
-<meta name="keywords" content="crypto, arabian, ape, arabianapegrow, bitcoin, bsc, binance, binancesmartchain">
-<meta name="author" content="ARABIAN APE GROW">
+<meta name="description" content="SHIBA KING COIN | BSC">
+<meta name="keywords" content="crypto, shiba, king, shibakingcoin, bitcoin, bsc, binance, binancesmartchain">
+<meta name="author" content="SHIBA KING COIN">
 
-<title>ARABIAN APE GROW | BSC</title>
+<title>SHIBA KING COIN | BSC</title>
 <link rel="icon" type="image/x-icon" href="{{ asset('images/logo.png') }}">
 
 <!-- Fonts -->
