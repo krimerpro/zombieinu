@@ -1,5 +1,5 @@
 <?php
-  if(Route::current()->getName() != 'nft'){
+  if(Route::current()->getName() != 'marketplace'){
 ?>
 
 <footer class="footer static-bottom footer-dark footer-custom-class" data-midnight="white"><div class="container">
@@ -18,7 +18,7 @@
     <div class="col-md-5 col-lg-5">&nbsp;</div>
 </div>
 <div class="copy-right mx-auto text-center">
-  <span class="copyright">Copyright &copy; 2022, ARABIAN APE GROW TEAM.</span>
+  <span class="copyright" style="color:green">Copyright &copy; 2022, SHIBA KING COIN.</span>
 </div>
 </div>
 </div>
