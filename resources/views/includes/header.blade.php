@@ -8,7 +8,7 @@
   <!-- Horizontal Menu Start-->
   <nav class="main-menu static-top navbar-dark navbar navbar-expand-lg fixed-top mb-1" style="background:#0047ab"><div class="container">
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" style="background:green">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" style="background:black">
       <span class="navbar-toggler-icon"></span>
   </button>
 <div class="collapse navbar-collapse" id="navbarCollapse">
