@@ -18,7 +18,7 @@
     <div class="col-md-5 col-lg-5">&nbsp;</div>
 </div>
 <div class="copy-right mx-auto text-center">
-  <span class="copyright" style="color:green">Copyright &copy; 2022, SHIBA KING COIN.</span>
+  <span class="copyright" style="color:green">Copyright &copy; 2022, SUPER APE CHAIN FOUNDATION.</span>
 </div>
 </div>
 </div>
@@ -32,10 +32,8 @@
 
 <script src="{{ asset('/js/swiper.min.js') }}"></script>
 
-<script src="{{ asset('/js/particles.min.js') }}"></script>
+
 
 <script src="{{ asset('/js/jquery.waypoints.min.js') }}"></script>
 
 <script src="{{ asset('/js/theme.min.js') }}"></script>
-
-<script src="{{ asset('/js/particles-type1.min.js') }}"></script>

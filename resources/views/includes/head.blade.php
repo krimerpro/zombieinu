@@ -4,10 +4,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 <meta name="description" content="SHIBA KING COIN | BSC">
-<meta name="keywords" content="crypto, shiba, king, shibakingcoin, bitcoin, bsc, binance, binancesmartchain">
-<meta name="author" content="SHIBA KING COIN">
+<meta name="keywords" content="crypto, super, ape, chain, superapechain, bitcoin, bsc, binance, binancesmartchain">
+<meta name="author" content="SUPER APE CHAIN">
 
-<title>SHIBA KING COIN | BSC</title>
+<title>SUPER APE CHAIN | BSC</title>
 <link rel="icon" type="image/x-icon" href="{{ asset('images/logo.png') }}">
 
 <!-- Fonts -->
