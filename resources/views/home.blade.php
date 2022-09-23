@@ -9,8 +9,16 @@
 <div></div>
 <div class="head-content d-flex align-items-center">
     <div class="container">
-        <div class="banner-wrapper">
+      <?php
+        if($agent->isMobile()){
+            ?>
+              <div class="banner-wrapper" style="margin-top:100%">
+            <?
+          } else{
+            ?>
             <div class="row align-items-right">
+
+            <?php } ?>
                 <div class="col-lg-6 col-md-6">&nbsp;</div>
                 <div class="col-lg-6 col-md-6">
                     <div class="banner-content">
@@ -128,99 +136,223 @@
         </div>
 
         <div class="row" style="margin-top:50px">
-            <div class="row" >
-                <div class="col-lg-6 col-md-6">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-3">
-                            <image src="{{ asset('images/feature-1.png') }}" style="width:100%;height:100%">
+          <?php
+            if($agent->isMobile()){
+          ?>
+                  <div class="row" style="margin-top:100px">
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <div>
+                            <image src="{{ asset('images/feature-1.png') }}" style="width:25%;height:25%">
                         </div>
 
-                        <div class="col-lg-9 col-md-9" style="margin-top:auto;margin-bottom:auto">
-                          <div class="row" style="font-weight:bold">HIGH SPEED AND LOW COSTS</div>
-                          <div class="row" style="margin-top:10px">Immediate funding without third-parties. Smart contracts autonomously perform funding – collect and release payments</div>
+                        <div style="margin-top:20px">
+                            <span style="font-weight:bold">HIGH SPEED AND LOW COSTS</span>
+                        </div>
+
+                        <div style="margin-top:20px">
+                            <span>Immediate funding without third-parties. Smart contracts autonomously perform funding – collect and release payments</span>
                         </div>
                     </div>
 
-                    <div class="row" style="margin-top: 50px">
-                        <div class="col-lg-3 col-md-3">
-                            <image src="{{ asset('images/feature-3.png') }}" style="width:100%;height:100%">
+                    <div class="col-lg-4 col-md-4 text-center" style="margin-top:50px">
+                        <div>
+                            <image src="{{ asset('images/feature-2.png') }}" style="width:25%;height:25%">
                         </div>
 
-                        <div class="col-lg-9 col-md-9" style="margin-top:auto;margin-bottom:auto">
-                          <div class="row" style="font-weight:bold">FAIR DEALS ONLY</div>
-                          <div class="row" style="margin-top:10px">Open-source smart contract ensures fair and transparent deals between merchants and affiliates</div>
+                        <div style="margin-top:20px">
+                            <span style="font-weight:bold">NO MORE MIDDLE MEN</span>
+                        </div>
+
+                        <div style="margin-top:20px">
+                            <span>Anyone can join or leave the network as they please without disrupting the network’s ability to form consensus on transactions</span>
                         </div>
                     </div>
 
-                    <div class="row" style="margin-top: 50px">
-                        <div class="col-lg-3 col-md-3">
-                            <image src="{{ asset('images/feature-5.png') }}" style="width:100%;height:100%">
+                    <div class="col-lg-4 col-md-4 text-center" style="margin-top:50px">
+                        <div>
+                            <image src="{{ asset('images/feature-3.png') }}" style="width:25%;height:25%">
                         </div>
 
-                        <div class="col-lg-9 col-md-9" style="margin-top:auto;margin-bottom:auto">
-                          <div class="row" style="font-weight:bold">PROTECTION FROM HACKING</div>
-                          <div class="row" style="margin-top:10px">On a decentralized platform, all user accounts are independent; if one account is hacked, this won’t breach the security of.</div>
+                        <div style="margin-top:20px">
+                            <span style="font-weight:bold">FAIR DEALS ONLY</span>
+                        </div>
+
+                        <div style="margin-top:20px">
+                            <span>Open-source smart contract ensures fair and transparent deals between merchants and affiliates</span>
                         </div>
                     </div>
 
-                    <div class="row" style="margin-top: 50px">
-                        <div class="col-lg-3 col-md-3">
-                            <image src="{{ asset('images/feature-7.png') }}" style="width:100%;height:100%">
+                    <div class="col-lg-4 col-md-4 text-center" style="margin-top:50px">
+                        <div>
+                            <image src="{{ asset('images/feature-4.png') }}" style="width:25%;height:25%">
                         </div>
 
-                        <div class="col-lg-9 col-md-9" style="margin-top:auto;margin-bottom:auto">
-                          <div class="row" style="font-weight:bold">COST EFFECTIVE</div>
-                          <div class="row" style="margin-top:10px">Scale economy through decentralization leading to significant decrease in transaction fees</div>
+                        <div style="margin-top:20px">
+                            <span style="font-weight:bold">EASY ENTRY AND FAIR COMPETITION</span>
+                        </div>
+
+                        <div style="margin-top:20px">
+                            <span>Taking a dynamic and reflexive perspective on the interaction between technology, law, and economics</span>
                         </div>
                     </div>
+
+                    <div class="col-lg-4 col-md-4 text-center" style="margin-top:50px">
+                        <div>
+                            <image src="{{ asset('images/feature-5.png') }}" style="width:25%;height:25%">
+                        </div>
+
+                        <div style="margin-top:20px">
+                            <span style="font-weight:bold">PROTECTION FROM HACKING</span>
+                        </div>
+
+                        <div style="margin-top:20px">
+                            <span>On a decentralized platform, all user accounts are independent; if one account is hacked, this won’t breach the security of</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 text-center" style="margin-top:50px">
+                        <div>
+                            <image src="{{ asset('images/feature-6.png') }}" style="width:25%;height:25%">
+                        </div>
+
+                        <div style="margin-top:20px">
+                            <span style="font-weight:bold">GLOBAL P2P TRADE FINANCING</span>
+                        </div>
+
+                        <div style="margin-top:20px">
+                            <span>Peer-to-peer business transaction mechanism based on blockchain technology is developed and explained</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 text-center" style="margin-top:50px">
+                        <div>
+                            <image src="{{ asset('images/feature-7.png') }}" style="width:25%;height:25%">
+                        </div>
+
+                        <div style="margin-top:20px">
+                            <span style="font-weight:bold">COST EFFECTIVE</span>
+                        </div>
+
+                        <div style="margin-top:20px">
+                            <span>Scale economy through decentralization leading to significant decrease in transaction fees</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 text-center" style="margin-top:50px">
+                        <div>
+                            <image src="{{ asset('images/feature-8.png') }}" style="width:25%;height:25%">
+                        </div>
+
+                        <div style="margin-top:20px">
+                            <span style="font-weight:bold">REAL-TIME DATABASE</span>
+                        </div>
+
+                        <div style="margin-top:20px">
+                            <span>Blockchain technology can be considered as one of the main drivers to achieve a substantial cost saving in real time database</span>
+                        </div>
+                    </div>
+                  </div>
                 </div>
 
-                <div class="col-lg-6 col-md-6">
+            <?php
+          } else{
+          ?>
+          <div class="row" >
+              <div class="col-lg-6 col-md-6 col-sm-6">
                   <div class="row">
-                      <div class="col-lg-3 col-md-3">
-                          <image src="{{ asset('images/feature-2.png') }}" style="width:100%;height:100%">
+                      <div class="col-lg-3 col-md-3 col-sm-3">
+                          <image src="{{ asset('images/feature-1.png') }}" style="width:100%;height:100%">
                       </div>
 
-                      <div class="col-lg-9 col-md-9" style="margin-top:auto;margin-bottom:auto">
-                        <div class="row" style="font-weight:bold">NO MORE MIDDLE MEN</div>
-                        <div class="row" style="margin-top:10px">Anyone can join or leave the network as they please without disrupting the network’s ability to form consensus on transactions. </div>
-                      </div>
-                  </div>
-
-                  <div class="row" style="margin-top: 50px">
-                      <div class="col-lg-3 col-md-3">
-                          <image src="{{ asset('images/feature-4.png') }}" style="width:100%;height:100%">
-                      </div>
-
-                      <div class="col-lg-9 col-md-9" style="margin-top:auto;margin-bottom:auto">
-                        <div class="row" style="font-weight:bold">EASY ENTRY AND FAIR COMPETITION</div>
-                        <div class="row" style="margin-top:10px">Taking a dynamic and reflexive perspective on the interaction between technology, law, and economics</div>
+                      <div class="col-lg-9 col-md-9 col-sm-9" style="margin-top:auto;margin-bottom:auto">
+                        <div class="row" style="font-weight:bold">HIGH SPEED AND LOW COSTS</div>
+                        <div class="row" style="margin-top:10px">Immediate funding without third-parties. Smart contracts autonomously perform funding – collect and release payments</div>
                       </div>
                   </div>
 
                   <div class="row" style="margin-top: 50px">
                       <div class="col-lg-3 col-md-3">
-                          <image src="{{ asset('images/feature-6.png') }}" style="width:100%;height:100%">
+                          <image src="{{ asset('images/feature-3.png') }}" style="width:100%;height:100%">
                       </div>
 
                       <div class="col-lg-9 col-md-9" style="margin-top:auto;margin-bottom:auto">
-                        <div class="row" style="font-weight:bold">GLOBAL P2P TRADE FINANCING</div>
-                        <div class="row" style="margin-top:10px">Peer-to-peer business transaction mechanism based on blockchain technology is developed and explained.</div>
+                        <div class="row" style="font-weight:bold">FAIR DEALS ONLY</div>
+                        <div class="row" style="margin-top:10px">Open-source smart contract ensures fair and transparent deals between merchants and affiliates</div>
                       </div>
                   </div>
 
                   <div class="row" style="margin-top: 50px">
                       <div class="col-lg-3 col-md-3">
-                          <image src="{{ asset('images/feature-8.png') }}" style="width:100%;height:100%">
+                          <image src="{{ asset('images/feature-5.png') }}" style="width:100%;height:100%">
+                      </div>
+
+                      <div class="col-lg-9 col-md-9" style="margin-top:auto;margin-bottom:auto">
+                        <div class="row" style="font-weight:bold">PROTECTION FROM HACKING</div>
+                        <div class="row" style="margin-top:10px">On a decentralized platform, all user accounts are independent; if one account is hacked, this won’t breach the security of.</div>
+                      </div>
+                  </div>
+
+                  <div class="row" style="margin-top: 50px">
+                      <div class="col-lg-3 col-md-3">
+                          <image src="{{ asset('images/feature-7.png') }}" style="width:100%;height:100%">
                       </div>
 
                       <div class="col-lg-9 col-md-9" style="margin-top:auto;margin-bottom:auto">
                         <div class="row" style="font-weight:bold">COST EFFECTIVE</div>
-                        <div class="row" style="margin-top:10px">Blockchain technology can be considered as one of the main drivers to achieve a substantial cost saving</div>
+                        <div class="row" style="margin-top:10px">Scale economy through decentralization leading to significant decrease in transaction fees</div>
                       </div>
                   </div>
+              </div>
+
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3">
+                        <image src="{{ asset('images/feature-2.png') }}" style="width:100%;height:100%">
+                    </div>
+
+                    <div class="col-lg-9 col-md-9" style="margin-top:auto;margin-bottom:auto">
+                      <div class="row" style="font-weight:bold">NO MORE MIDDLE MEN</div>
+                      <div class="row" style="margin-top:10px">Anyone can join or leave the network as they please without disrupting the network’s ability to form consensus on transactions. </div>
+                    </div>
                 </div>
-            </div>
+
+                <div class="row" style="margin-top: 50px">
+                    <div class="col-lg-3 col-md-3">
+                        <image src="{{ asset('images/feature-4.png') }}" style="width:100%;height:100%">
+                    </div>
+
+                    <div class="col-lg-9 col-md-9" style="margin-top:auto;margin-bottom:auto">
+                      <div class="row" style="font-weight:bold">EASY ENTRY AND FAIR COMPETITION</div>
+                      <div class="row" style="margin-top:10px">Taking a dynamic and reflexive perspective on the interaction between technology, law, and economics</div>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top: 50px">
+                    <div class="col-lg-3 col-md-3">
+                        <image src="{{ asset('images/feature-6.png') }}" style="width:100%;height:100%">
+                    </div>
+
+                    <div class="col-lg-9 col-md-9" style="margin-top:auto;margin-bottom:auto">
+                      <div class="row" style="font-weight:bold">GLOBAL P2P TRADE FINANCING</div>
+                      <div class="row" style="margin-top:10px">Peer-to-peer business transaction mechanism based on blockchain technology is developed and explained.</div>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top: 50px">
+                    <div class="col-lg-3 col-md-3">
+                        <image src="{{ asset('images/feature-8.png') }}" style="width:100%;height:100%">
+                    </div>
+
+                    <div class="col-lg-9 col-md-9" style="margin-top:auto;margin-bottom:auto">
+                      <div class="row" style="font-weight:bold">COST EFFECTIVE</div>
+                      <div class="row" style="margin-top:10px">Blockchain technology can be considered as one of the main drivers to achieve a substantial cost saving</div>
+                    </div>
+                </div>
+              </div>
+          </div>
+          <?php
+          }
+            ?>
         </div>
     </div>
 </div>
