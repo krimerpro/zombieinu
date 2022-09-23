@@ -9,16 +9,7 @@
 <div></div>
 <div class="head-content d-flex align-items-center">
     <div class="container">
-      <?php
-        if($agent->isMobile()){
-      ?>
-            <div class="banner-wrapper" style="margin-top:250%">
-      <?php
-        } else{
-      ?>
-            <div class="banner-wrapper">
-
-      <?php } ?>
+      <div class="banner-wrapper">
 
             <div class="row align-items-right">
                 <div class="col-lg-12 col-md-12">
@@ -38,6 +29,9 @@
             </div>
         </div>
 
+        <?php
+          if(!$agent->isMobile()){
+        ?>
         <div class="row" style="margin-top:100px">
           <div class="col-lg-4 col-md-4 text-center">
               <div>
@@ -81,6 +75,7 @@
               </div>
           </div>
         </div>
+      <?php } ?>
     </div>
 </div>
 </section>
@@ -96,7 +91,54 @@
     </div>
 
     <div class="content-area">
-        <div class="row">
+      <?php
+        if($agent->isMobile()){
+      ?>
+      <div class="row" style="margin-top:100px">
+        <div class="col-lg-4 col-md-4 text-center">
+            <div>
+                <image src="{{ asset('images/icon-service-1.png') }}" style="width:25%;height:25%">
+            </div>
+
+            <div style="margin-top:20px">
+                <span style="font-weight:bold">DECENTRALISED SYSTEM</span>
+            </div>
+
+            <div style="margin-top:20px">
+                <span>A technical failure can paralyze all affiliate networks on a centralized platfotrm, until the cause is detected and rectified the system.</span>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 text-center" style="margin-top:30px">
+            <div>
+                <image src="{{ asset('images/icon-service-2.png') }}" style="width:25%;height:25%">
+            </div>
+
+            <div style="margin-top:20px">
+                <span style="font-weight:bold">BANKS PAYMENT SYSTEMS</span>
+            </div>
+
+            <div style="margin-top:20px">
+                <span>Up to 45% of a merchant’s budget is spent on commissions charged by a number of brokers, including banks, payment systems.</span>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 text-center"  style="margin-top:30px">
+            <div>
+                <image src="{{ asset('images/icon-service-3.png') }}" style="width:25%;height:25%">
+            </div>
+
+            <div style="margin-top:20px">
+                <span style="font-weight:bold">CPA NETWORKS</span>
+            </div>
+
+            <div style="margin-top:20px">
+                <span>Affiliate networks have to pay for using existing platforms on a monthly basis or spend money on developing proprietary platforms</span>
+            </div>
+        </div>
+      </div>
+<?php } ?>
+        <div class="row" style="margin-top:30px">
             <div class="col-md-4 col-lg-4">
                 <image src="{{ asset('images/service-image-1.png') }}" style="width:100%;height:100%">
             </div>
