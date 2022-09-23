@@ -458,6 +458,12 @@
                         <li style="margin-top:10px">
                           <span class="fa fa-check" style="color:blue"></span> 100% LP Lock
                         </li>
+                        <li style="margin-top:10px">
+                          <span class="fa fa-check" style="color:blue"></span> Anti Whale | Max Wallet 2%
+                        </li>
+                        <li style="margin-top:10px">
+                          <span class="fa fa-check" style="color:blue"></span> Anti Dump | Max Tx 2%
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -473,7 +479,7 @@
                     <span class="fa fa-table-columns" style="color:blue"></span> Token Supply : 1.000.000.000.000.000
                   </li>
                   <li style="margin-top:10px">
-                    <span class="fa fa-table-columns" style="color:blue"></span> Initial Liquidity Pool : 4 BNB
+                    <span class="fa fa-table-columns" style="color:blue"></span> Initial Liquidity Pool : 6 BNB
                   </li>
               </ul>
             </div>
