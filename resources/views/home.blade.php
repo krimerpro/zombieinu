@@ -12,7 +12,7 @@
       <?php
         if($agent->isMobile()){
       ?>
-            <div class="banner-wrapper" style="margin-top:200%">
+            <div class="banner-wrapper" style="margin-top:250%">
       <?php
         } else{
       ?>
