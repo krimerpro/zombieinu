@@ -21,8 +21,8 @@
                         <h1 class="best-template animated text-center" data-animation="fadeInUpShorter" data-animation-delay="1.5s" style="color:#0047ab;margin-top:20px">SUPER APE CHAIN</h1>
                         <h5 class="d-block white animated text-center" data-animation="fadeInUpShorter" data-animation-delay="1.6s" style="color:grey">Super Ape Chain is a decentralized public blockchain and cryptocurrency project and is fully open source. Super Ape Chain is developing a smart contract platform</h5>
                         <div class="mt-5 text-center">
-                            <a href="https://poocoin.app/tokens/0xFd634bD92D898027f4A6D25E339bE9bDf5EF047B" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Chart</a>
-                            <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xFd634bD92D898027f4A6D25E339bE9bDf5EF047B" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Buy Token</a>
+                            <a href="https://poocoin.app/tokens/" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Chart</a>
+                            <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Buy Token</a>
                             <a href="https://t.me/SuperApeChain" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Telegram</a>
                         </div>
                     </div>
@@ -416,13 +416,13 @@
         <div class="row">
             <div class="col-md-4 col-lg-4" style="border:solid;padding:20px">
                 <div style="margin-bottom:15px;">
-                    <h3 style="font-size:25px" class="text-center">BUY FEES | 8%</h3>
+                    <h3 style="font-size:25px" class="text-center">BUY FEES | 4%</h3>
                     <ul style="margin-top:20px; font-size: 17px">
                         <li>
-                          <span class="fa fa-check" style="color:blue"></span> Marketing 4%
+                          <span class="fa fa-check" style="color:blue"></span> Marketing 1%
                         </li>
                         <li style="margin-top:10px">
-                          <span class="fa fa-check" style="color:blue"></span> Development 2%
+                          <span class="fa fa-check" style="color:blue"></span> Development 1%
                         </li>
                         <li style="margin-top:10px">
                           <span class="fa fa-check" style="color:blue"></span> Auto Add LP 2%
@@ -433,13 +433,13 @@
 
             <div class="col-md-4 col-lg-4" style="border:solid;padding:20px">
                 <div style="margin-bottom:15px;">
-                    <h3 style="font-size:25px" class="text-center">SELL FEES | 8%</h3>
+                    <h3 style="font-size:25px" class="text-center">SELL FEES | 4%</h3>
                     <ul style="margin-top:20px; font-size: 17px">
                         <li>
-                          <span class="fa fa-check" style="color:blue"></span> Marketing 4%
+                          <span class="fa fa-check" style="color:blue"></span> Marketing 1%
                         </li>
                         <li style="margin-top:10px">
-                          <span class="fa fa-check" style="color:blue"></span> Development 2%
+                          <span class="fa fa-check" style="color:blue"></span> Development 1%
                         </li>
                         <li style="margin-top:10px">
                           <span class="fa fa-check" style="color:blue"></span> Auto Add LP 2%
@@ -459,10 +459,10 @@
                           <span class="fa fa-check" style="color:blue"></span> 100% LP Lock
                         </li>
                         <li style="margin-top:10px">
-                          <span class="fa fa-check" style="color:blue"></span> Anti Whale | Max Wallet 2%
+                          <span class="fa fa-check" style="color:blue"></span> Anti Whale | Max Wallet 3%
                         </li>
                         <li style="margin-top:10px">
-                          <span class="fa fa-check" style="color:blue"></span> Anti Dump | Max Tx 2%
+                          <span class="fa fa-check" style="color:blue"></span> Anti Dump | Max Tx 3%
                         </li>
                     </ul>
                 </div>
@@ -479,7 +479,7 @@
                     <span class="fa fa-table-columns" style="color:blue"></span> Token Supply : 1.000.000.000.000.000
                   </li>
                   <li style="margin-top:10px">
-                    <span class="fa fa-table-columns" style="color:blue"></span> Initial Liquidity Pool : 6 BNB
+                    <span class="fa fa-table-columns" style="color:blue"></span> Initial Liquidity Pool : 4 BNB
                   </li>
               </ul>
             </div>
