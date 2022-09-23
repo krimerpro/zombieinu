@@ -12,14 +12,16 @@
       <?php
         if($agent->isMobile()){
       ?>
-            <div class="banner-wrapper" style="margin-top:100%">
+            <div class="banner-wrapper" style="margin-top:200%">
       <?php
         } else{
       ?>
-            <div class="row align-items-right">
+            <div class="banner-wrapper">
+
       <?php } ?>
-                <div class="col-lg-6 col-md-6">&nbsp;</div>
-                <div class="col-lg-6 col-md-6">
+
+            <div class="row align-items-right">
+                <div class="col-lg-12 col-md-12">
                     <div class="banner-content">
                       <div id="svg-animation">
                           <img src="{{ asset('images/logo.png') }}" style="width:50%;height:50%;border-radius:50%;display: block;margin-left: auto;margin-right: auto">
