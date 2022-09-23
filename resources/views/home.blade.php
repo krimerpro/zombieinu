@@ -479,7 +479,7 @@
                     <span class="fa fa-table-columns" style="color:blue"></span> Token Supply : 1.000.000.000.000.000
                   </li>
                   <li style="margin-top:10px">
-                    <span class="fa fa-table-columns" style="color:blue"></span> Initial Liquidity Pool : 4 BNB
+                    <span class="fa fa-table-columns" style="color:blue"></span> Initial Liquidity Pool : 3 BNB
                   </li>
               </ul>
             </div>
