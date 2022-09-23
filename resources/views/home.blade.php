@@ -23,6 +23,7 @@
                         <div class="mt-5 text-center">
                             <a href="https://poocoin.app/tokens/" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Chart</a>
                             <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x1E81e2dEF929397F198f12DfD0Cc3a1B3Aed9132" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Buy Token</a>
+                            <a href="https://t.me/SuperApeChain" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Telegram</a>
                         </div>
                     </div>
                 </div>
@@ -387,7 +388,7 @@
                     </div>
 
                     <div class="col-lg-9 col-md-9" style="margin-top:auto;margin-bottom:auto">
-                      <div class="row" style="font-weight:bold">COST EFFECTIVE</div>
+                      <div class="row" style="font-weight:bold">REAL-TIME DATABASE</div>
                       <div class="row" style="margin-top:10px">Blockchain technology can be considered as one of the main drivers to achieve a substantial cost saving</div>
                     </div>
                 </div>
