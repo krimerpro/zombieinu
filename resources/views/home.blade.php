@@ -11,14 +11,13 @@
     <div class="container">
       <?php
         if($agent->isMobile()){
-            ?>
-              <div class="banner-wrapper" style="padding-top:100%">
-            <?
-          } else{
-            ?>
+      ?>
+            <div class="banner-wrapper" style="margin-top:100%">
+      <?php
+        } else{
+      ?>
             <div class="row align-items-right">
-
-            <?php } ?>
+      <?php } ?>
                 <div class="col-lg-6 col-md-6">&nbsp;</div>
                 <div class="col-lg-6 col-md-6">
                     <div class="banner-content">
