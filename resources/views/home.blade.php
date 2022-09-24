@@ -21,8 +21,8 @@
                         <h1 class="best-template animated text-center" data-animation="fadeInUpShorter" data-animation-delay="1.5s" style="color:#0047ab;margin-top:20px">SUPER APE CHAIN</h1>
                         <h5 class="d-block white animated text-center" data-animation="fadeInUpShorter" data-animation-delay="1.6s" style="color:grey">Super Ape Chain is a decentralized public blockchain and cryptocurrency project and is fully open source. Super Ape Chain is developing a smart contract platform</h5>
                         <div class="mt-5 text-center">
-                            <a href="https://poocoin.app/tokens/0xED38B7CFDF020F5D66cE945e4DA46825c4158d46" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Chart</a>
-                            <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xED38B7CFDF020F5D66cE945e4DA46825c4158d46" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Buy Token</a>
+                            <a href="https://poocoin.app/tokens/" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Chart</a>
+                            <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Buy Token</a>
                             <a href="https://t.me/SuperApeChain" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Telegram</a>
                         </div>
                     </div>
@@ -458,6 +458,12 @@
                         <li style="margin-top:10px">
                           <span class="fa fa-check" style="color:blue"></span> 100% LP Lock
                         </li>
+                        <li style="margin-top:10px">
+                          <span class="fa fa-check" style="color:blue"></span> Anti Whale | Max Wallet 3%
+                        </li>
+                        <li style="margin-top:10px">
+                          <span class="fa fa-check" style="color:blue"></span> Anti Dump | Max Tx 3%
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -470,10 +476,10 @@
                     <span class="fa fa-table-columns" style="color:blue"></span> Token Symbol : $SAC
                   </li>
                   <li style="margin-top:10px">
-                    <span class="fa fa-table-columns" style="color:blue"></span> Token Supply : 1.000.000.000.000.000
+                    <span class="fa fa-table-columns" style="color:blue"></span> Token Supply : 1.000.000.000
                   </li>
                   <li style="margin-top:10px">
-                    <span class="fa fa-table-columns" style="color:blue"></span> Initial Liquidity Pool : 1 BNB
+                    <span class="fa fa-table-columns" style="color:blue"></span> Initial Liquidity Pool : 2 BNB
                   </li>
               </ul>
             </div>
