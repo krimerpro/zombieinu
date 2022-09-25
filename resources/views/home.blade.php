@@ -476,7 +476,7 @@
                     <span class="fa fa-table-columns" style="color:blue"></span> Token Symbol : $SAC
                   </li>
                   <li style="margin-top:10px">
-                    <span class="fa fa-table-columns" style="color:blue"></span> Token Supply : 1.000.000.000
+                    <span class="fa fa-table-columns" style="color:blue"></span> Token Supply : 1.000.000.000.000.000
                   </li>
                   <li style="margin-top:10px">
                     <span class="fa fa-table-columns" style="color:blue"></span> Initial Liquidity Pool : 2 BNB
