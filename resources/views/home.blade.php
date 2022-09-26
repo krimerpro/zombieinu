@@ -21,8 +21,8 @@
                         <h1 class="best-template animated text-center" data-animation="fadeInUpShorter" data-animation-delay="1.5s" style="color:#0047ab;margin-top:20px">SUPER APE CHAIN</h1>
                         <h5 class="d-block white animated text-center" data-animation="fadeInUpShorter" data-animation-delay="1.6s" style="color:grey">Super Ape Chain is a decentralized public blockchain and cryptocurrency project and is fully open source. Super Ape Chain is developing a smart contract platform</h5>
                         <div class="mt-5 text-center">
-                            <a href="https://poocoin.app/tokens/0x7cC8F750468B64dB46B8574F3bc70E816F9C2e1c" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Chart</a>
-                            <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x7cC8F750468B64dB46B8574F3bc70E816F9C2e1c" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Buy Token</a>
+                            <a href="https://poocoin.app/tokens/0xF8Ea775A280131E61F70C8bCe793b1384b772D3e" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Chart</a>
+                            <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xF8Ea775A280131E61F70C8bCe793b1384b772D3e" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Buy Token</a>
                             <a href="https://t.me/SuperApeChain" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Telegram</a>
                         </div>
                     </div>
