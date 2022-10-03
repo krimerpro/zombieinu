@@ -3,11 +3,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<meta name="description" content="SHIBA KING COIN | BSC">
-<meta name="keywords" content="crypto, super, ape, chain, superapechain, bitcoin, bsc, binance, binancesmartchain">
-<meta name="author" content="SUPER APE CHAIN">
+<meta name="description" content="SUPER SHIBA CHAIN | BSC">
+<meta name="keywords" content="crypto, super, shiba, chain, supershibachain, bitcoin, bsc, binance, binancesmartchain">
+<meta name="author" content="SUPER SHIBA CHAIN">
 
-<title>SUPER APE CHAIN | BSC</title>
+<title>SUPER SHIBA CHAIN | BSC</title>
 <link rel="icon" type="image/x-icon" href="{{ asset('images/logo.png') }}">
 
 <!-- Fonts -->

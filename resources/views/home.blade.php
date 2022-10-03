@@ -15,15 +15,15 @@
                 <div class="col-lg-12 col-md-12">
                     <div class="banner-content">
                       <div id="svg-animation">
-                          <img src="{{ asset('images/logo.png') }}" style="width:50%;height:50%;border-radius:50%;display: block;margin-left: auto;margin-right: auto">
+                          <img src="{{ asset('images/logo.png') }}" style="width:40%;height:40%;border-radius:50%;display: block;margin-left: auto;margin-right: auto">
                       </div>
 
-                        <h1 class="best-template animated text-center" data-animation="fadeInUpShorter" data-animation-delay="1.5s" style="color:#0047ab;margin-top:20px">SUPER APE CHAIN</h1>
-                        <h5 class="d-block white animated text-center" data-animation="fadeInUpShorter" data-animation-delay="1.6s" style="color:grey">Super Ape Chain is a decentralized public blockchain and cryptocurrency project and is fully open source. Super Ape Chain is developing a smart contract platform</h5>
+                        <h1 class="best-template animated text-center" data-animation="fadeInUpShorter" data-animation-delay="1.5s" style="color:#0047ab;margin-top:20px">SUPER SHIBA CHAIN</h1>
+                        <h5 class="d-block white animated text-center" data-animation="fadeInUpShorter" data-animation-delay="1.6s" style="color:grey">Super Shiba Chain is a decentralized public blockchain and cryptocurrency project and is fully open source. Super Shiba Chain is developing a smart contract platform</h5>
                         <div class="mt-5 text-center">
                             <a href="https://poocoin.app/tokens/" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Chart</a>
                             <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Buy Token</a>
-                            <a href="https://t.me/SuperApeChain" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Telegram</a>
+                            <a href="https://t.me/SuperShibaChain" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Telegram</a>
                         </div>
                     </div>
                 </div>
@@ -145,8 +145,8 @@
             </div>
 
             <div class="col-md-8 col-lg-8" style="margin-top:auto; margin-bottom:auto">
-                <span style="color:black; font-size:22px;font-weight:bold">Meet Super Ape Chain System</span><br/>
-                <span style="color:black; font-size:20px;">Super Ape Chain connects banks, payment providers, digital asset exchanges and corporates via Cryptro to provide one frictionless experience to send money globally.</span>
+                <span style="color:black; font-size:22px;font-weight:bold">Meet Super Shiba Chain System</span><br/>
+                <span style="color:black; font-size:20px;">Super Shiba Chain connects banks, payment providers, digital asset exchanges and corporates via Cryptro to provide one frictionless experience to send money globally.</span>
 
                 <ul style="margin-top:20px; font-size: 17px">
                     <li>
@@ -473,13 +473,13 @@
             <div class="col-md-12 col-lg-12">
               <ul style="margin-top:20px; font-size: 17px">
                   <li style="margin-top:10px">
-                    <span class="fa fa-table-columns" style="color:blue"></span> Token Symbol : $SAC
+                    <span class="fa fa-table-columns" style="color:blue"></span> Token Symbol : $SSC
                   </li>
                   <li style="margin-top:10px">
                     <span class="fa fa-table-columns" style="color:blue"></span> Token Supply : 1.000.000.000.000.000
                   </li>
                   <li style="margin-top:10px">
-                    <span class="fa fa-table-columns" style="color:blue"></span> Initial Liquidity Pool : 1 BNB
+                    <span class="fa fa-table-columns" style="color:blue"></span> Initial Liquidity Pool : 3 BNB
                   </li>
               </ul>
             </div>

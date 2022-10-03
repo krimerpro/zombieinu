@@ -15,7 +15,7 @@
     <div id="navigation" class="navbar-nav" style="width:100%">
         <ul class="navbar-nav mt-1">
             <li class="nav-item animated" data-animation="fadeInDown" data-animation-delay="1.1s">
-                <a class="nav-link" href="/" style="color:white;font-size:large">SUPER APE CHAIN</a>
+                <a class="nav-link" href="/" style="color:white;font-size:large">SUPER SHIBA CHAIN</a>
             </li>
             <li class="nav-item animated" data-animation="fadeInDown" data-animation-delay="1.1s">
                 <a class="nav-link" href="#about" style="color:white;font-size:large">About</a>
