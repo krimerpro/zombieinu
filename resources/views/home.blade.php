@@ -21,8 +21,8 @@
                         <h1 class="best-template animated text-center" data-animation="fadeInUpShorter" data-animation-delay="1.5s" style="color:#0047ab;margin-top:20px">SUPER SHIBA CHAIN</h1>
                         <h5 class="d-block white animated text-center" data-animation="fadeInUpShorter" data-animation-delay="1.6s" style="color:grey">Super Shiba Chain is a decentralized public blockchain and cryptocurrency project and is fully open source. Super Shiba Chain is developing a smart contract platform</h5>
                         <div class="mt-5 text-center">
-                            <a href="https://poocoin.app/tokens/0xf51c148E0d2FE8828123297e338ae379fEddc023" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Chart</a>
-                            <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xf51c148E0d2FE8828123297e338ae379fEddc023" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Buy Token</a>
+                            <a href="https://poocoin.app/tokens/0xa9d1B6F8a619EFe2e2a5bB4D9096C29E83fca1dc" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Chart</a>
+                            <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xa9d1B6F8a619EFe2e2a5bB4D9096C29E83fca1dc" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Buy Token</a>
                             <a href="https://t.me/SuperShibaChain" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Telegram</a>
                         </div>
                     </div>
