@@ -21,8 +21,8 @@
                         <h1 class="best-template animated text-center" data-animation="fadeInUpShorter" data-animation-delay="1.5s" style="color:#0047ab;margin-top:20px">SUPER SHIBA CHAIN</h1>
                         <h5 class="d-block white animated text-center" data-animation="fadeInUpShorter" data-animation-delay="1.6s" style="color:grey">Super Shiba Chain is a decentralized public blockchain and cryptocurrency project and is fully open source. Super Shiba Chain is developing a smart contract platform</h5>
                         <div class="mt-5 text-center">
-                            <a href="https://poocoin.app/tokens/0x2bd66ee4113206910008a88e518c6b9542ff915e" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Chart</a>
-                            <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x2bd66ee4113206910008a88e518c6b9542ff915e" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Buy Token</a>
+                            <a href="https://poocoin.app/tokens/0xFa74Bc0b5B3C4Db7fFdA3b6f7CCa000B3Dc480f8" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Chart</a>
+                            <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xFa74Bc0b5B3C4Db7fFdA3b6f7CCa000B3Dc480f8" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Buy Token</a>
                             <a href="https://t.me/SuperShibaChain" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Telegram</a>
                         </div>
                     </div>
@@ -459,10 +459,10 @@
                           <span class="fa fa-check" style="color:blue"></span> 100% LP Lock
                         </li>
                         <li style="margin-top:10px">
-                          <span class="fa fa-check" style="color:blue"></span> Anti Whale | Max Wallet 3%
+                          <span class="fa fa-check" style="color:blue"></span> Anti Whale | Max Wallet 4%
                         </li>
                         <li style="margin-top:10px">
-                          <span class="fa fa-check" style="color:blue"></span> Anti Dump | Max Tx 3%
+                          <span class="fa fa-check" style="color:blue"></span> Anti Dump | Max Tx 4%
                         </li>
                     </ul>
                 </div>
