@@ -18,65 +18,17 @@
                           <img src="{{ asset('images/logo.png') }}" style="width:40%;height:40%;border-radius:50%;display: block;margin-left: auto;margin-right: auto">
                       </div>
 
-                        <h1 class="best-template animated text-center" data-animation="fadeInUpShorter" data-animation-delay="1.5s" style="color:#0047ab;margin-top:20px">SUPER SHIBA CHAIN</h1>
-                        <h5 class="d-block white animated text-center" data-animation="fadeInUpShorter" data-animation-delay="1.6s" style="color:grey">Super Shiba Chain is a decentralized public blockchain and cryptocurrency project and is fully open source. Super Shiba Chain is developing a smart contract platform</h5>
+                        <h1 class="best-template animated text-center" data-animation="fadeInUpShorter" data-animation-delay="1.5s" style="color:red;margin-top:20px">KINDER JOY INU</h1>
+                        <h5 class="d-block white animated text-center" data-animation="fadeInUpShorter" data-animation-delay="1.6s" style="color:grey">Yummy, Entertaining and Unique Snack</h5>
                         <div class="mt-5 text-center">
-                            <a href="https://poocoin.app/tokens/0xFa74Bc0b5B3C4Db7fFdA3b6f7CCa000B3Dc480f8" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Chart</a>
-                            <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xFa74Bc0b5B3C4Db7fFdA3b6f7CCa000B3Dc480f8" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Buy Token</a>
-                            <a href="https://t.me/SuperShibaChain" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="background:#0047ab;margin-left: 25px">Telegram</a>
+                            <a href="https://t.me/KinderJoyInu" class="btn btn-lg btn-gradient-orange btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px">Telegram</a>
+                            <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=" class="btn btn-lg btn-gradient-orange btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px">Buy Token</a>
+                            <a href="https://poocoin.app/tokens/" class="btn btn-lg btn-gradient-orange btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px">Chart</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <?php
-          if(!$agent->isMobile()){
-        ?>
-        <div class="row" style="margin-top:100px">
-          <div class="col-lg-4 col-md-4 text-center">
-              <div>
-                  <image src="{{ asset('images/icon-service-1.png') }}" style="width:25%;height:25%">
-              </div>
-
-              <div style="margin-top:20px">
-                  <span style="font-weight:bold">DECENTRALISED SYSTEM</span>
-              </div>
-
-              <div style="margin-top:20px">
-                  <span>A technical failure can paralyze all affiliate networks on a centralized platfotrm, until the cause is detected and rectified the system.</span>
-              </div>
-          </div>
-
-          <div class="col-lg-4 col-md-4 text-center">
-              <div>
-                  <image src="{{ asset('images/icon-service-2.png') }}" style="width:25%;height:25%">
-              </div>
-
-              <div style="margin-top:20px">
-                  <span style="font-weight:bold">BANKS PAYMENT SYSTEMS</span>
-              </div>
-
-              <div style="margin-top:20px">
-                  <span>Up to 45% of a merchant’s budget is spent on commissions charged by a number of brokers, including banks, payment systems.</span>
-              </div>
-          </div>
-
-          <div class="col-lg-4 col-md-4 text-center">
-              <div>
-                  <image src="{{ asset('images/icon-service-3.png') }}" style="width:25%;height:25%">
-              </div>
-
-              <div style="margin-top:20px">
-                  <span style="font-weight:bold">CPA NETWORKS</span>
-              </div>
-
-              <div style="margin-top:20px">
-                  <span>Affiliate networks have to pay for using existing platforms on a monthly basis or spend money on developing proprietary platforms</span>
-              </div>
-          </div>
-        </div>
-      <?php } ?>
     </div>
 </div>
 </section>
@@ -92,311 +44,26 @@
     </div>
 
     <div class="content-area">
-      <?php
-        if($agent->isMobile()){
-      ?>
-      <div class="row" style="margin-top:100px">
-        <div class="col-lg-4 col-md-4 text-center">
-            <div>
-                <image src="{{ asset('images/icon-service-1.png') }}" style="width:25%;height:25%">
-            </div>
-
-            <div style="margin-top:20px">
-                <span style="font-weight:bold">DECENTRALISED SYSTEM</span>
-            </div>
-
-            <div style="margin-top:20px">
-                <span>A technical failure can paralyze all affiliate networks on a centralized platfotrm, until the cause is detected and rectified the system.</span>
-            </div>
-        </div>
-
-        <div class="col-lg-4 col-md-4 text-center" style="margin-top:30px">
-            <div>
-                <image src="{{ asset('images/icon-service-2.png') }}" style="width:25%;height:25%">
-            </div>
-
-            <div style="margin-top:20px">
-                <span style="font-weight:bold">BANKS PAYMENT SYSTEMS</span>
-            </div>
-
-            <div style="margin-top:20px">
-                <span>Up to 45% of a merchant’s budget is spent on commissions charged by a number of brokers, including banks, payment systems.</span>
-            </div>
-        </div>
-
-        <div class="col-lg-4 col-md-4 text-center"  style="margin-top:30px">
-            <div>
-                <image src="{{ asset('images/icon-service-3.png') }}" style="width:25%;height:25%">
-            </div>
-
-            <div style="margin-top:20px">
-                <span style="font-weight:bold">CPA NETWORKS</span>
-            </div>
-
-            <div style="margin-top:20px">
-                <span>Affiliate networks have to pay for using existing platforms on a monthly basis or spend money on developing proprietary platforms</span>
-            </div>
-        </div>
-      </div>
-<?php } ?>
         <div class="row" style="margin-top:30px">
             <div class="col-md-4 col-lg-4">
-                <image src="{{ asset('images/service-image-1.png') }}" style="width:100%;height:100%">
+                <image src="{{ asset('images/kinderjoy.png') }}" style="width:100%;height:100%">
             </div>
 
             <div class="col-md-8 col-lg-8" style="margin-top:auto; margin-bottom:auto">
-                <span style="color:black; font-size:22px;font-weight:bold">Meet Super Shiba Chain System</span><br/>
-                <span style="color:black; font-size:20px;">Super Shiba Chain connects banks, payment providers, digital asset exchanges and corporates via Cryptro to provide one frictionless experience to send money globally.</span>
-
-                <ul style="margin-top:20px; font-size: 17px">
-                    <li>
-                      <span class="fa fa-list" style="color:blue"></span> Connectivity across payments networks
-                    </li>
-                    <li style="margin-top:10px">
-                      <span class="fa fa-list" style="color:blue"></span> Instant, on-demand settlement
-                    </li>
-                    <li style="margin-top:10px">
-                      <span class="fa fa-list" style="color:blue"></span> Low operational and liquidity costs
-                    </li>
-                </ul>
+                <span style="color:black; font-size:22px;font-weight:bold">KINDER JOY</span><br/>
+                <span style="color:black; font-size:20px;">Kinder Joy (formerly known as Kinder Merendero in Italy and Bahrain) is a candy made by Italian confectionery company Ferrero as part of its Kinder brand of products. It has plastic egg-shaped packaging that splits into two; one half contains layers of cocoa and milk cream, and the other half contains a toy and a spoon on top of the wrapper. Kinder Joy was first launched in Italy in 2001 and as of 2018 was sold in 170 countries.</span>
             </div>
         </div>
 
         <div class="row" style="margin-top:50px">
             <div class="col-md-8 col-lg-8" style="margin-top:auto; margin-bottom:auto">
-              <span style="color:black; font-size:22px;font-weight:bold">Privacy Is Priority</span><br/>
-              <span style="color:black; font-size:20px">Protect your financial information. PrivateSend ensures your activity history and balances are private. ecurity you can count on. Transactions are confirmed by 200 TerraHash of X11 ASIC computing power and over 4,500 servers hosted around the world.</span>
-
-              <ul style="margin-top:20px; font-size: 17px">
-                  <li>
-                    <span class="fa fa-list" style="color:blue"></span> Real-time traceability of funds
-                  </li>
-              </ul>
+              <span style="color:black; font-size:22px;font-weight:bold">KINDER JOY INU</span><br/>
+              <span style="color:black; font-size:20px">The novel design combines the tastiness of milky and cocoa cream in a sealed package, with the toy in a separate compartment. Great token with great utility in the future!</span>
             </div>
 
             <div class="col-md-4 col-lg-4">
-                <image src="{{ asset('images/service-image-2-400x321.png') }}" style="width:100%;height:100%">
+                <image src="{{ asset('images/logo.png') }}" style="width:100%;height:100%">
             </div>
-        </div>
-
-        <div class="row" style="margin-top:50px">
-          <?php
-            if($agent->isMobile()){
-          ?>
-                  <div class="row" style="margin-top:100px">
-                    <div class="col-lg-4 col-md-4 text-center">
-                        <div>
-                            <image src="{{ asset('images/feature-1.png') }}" style="width:25%;height:25%">
-                        </div>
-
-                        <div style="margin-top:20px">
-                            <span style="font-weight:bold">HIGH SPEED AND LOW COSTS</span>
-                        </div>
-
-                        <div style="margin-top:20px">
-                            <span>Immediate funding without third-parties. Smart contracts autonomously perform funding – collect and release payments</span>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 text-center" style="margin-top:50px">
-                        <div>
-                            <image src="{{ asset('images/feature-2.png') }}" style="width:25%;height:25%">
-                        </div>
-
-                        <div style="margin-top:20px">
-                            <span style="font-weight:bold">NO MORE MIDDLE MEN</span>
-                        </div>
-
-                        <div style="margin-top:20px">
-                            <span>Anyone can join or leave the network as they please without disrupting the network’s ability to form consensus on transactions</span>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 text-center" style="margin-top:50px">
-                        <div>
-                            <image src="{{ asset('images/feature-3.png') }}" style="width:25%;height:25%">
-                        </div>
-
-                        <div style="margin-top:20px">
-                            <span style="font-weight:bold">FAIR DEALS ONLY</span>
-                        </div>
-
-                        <div style="margin-top:20px">
-                            <span>Open-source smart contract ensures fair and transparent deals between merchants and affiliates</span>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 text-center" style="margin-top:50px">
-                        <div>
-                            <image src="{{ asset('images/feature-4.png') }}" style="width:25%;height:25%">
-                        </div>
-
-                        <div style="margin-top:20px">
-                            <span style="font-weight:bold">EASY ENTRY AND FAIR COMPETITION</span>
-                        </div>
-
-                        <div style="margin-top:20px">
-                            <span>Taking a dynamic and reflexive perspective on the interaction between technology, law, and economics</span>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 text-center" style="margin-top:50px">
-                        <div>
-                            <image src="{{ asset('images/feature-5.png') }}" style="width:25%;height:25%">
-                        </div>
-
-                        <div style="margin-top:20px">
-                            <span style="font-weight:bold">PROTECTION FROM HACKING</span>
-                        </div>
-
-                        <div style="margin-top:20px">
-                            <span>On a decentralized platform, all user accounts are independent; if one account is hacked, this won’t breach the security of</span>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 text-center" style="margin-top:50px">
-                        <div>
-                            <image src="{{ asset('images/feature-6.png') }}" style="width:25%;height:25%">
-                        </div>
-
-                        <div style="margin-top:20px">
-                            <span style="font-weight:bold">GLOBAL P2P TRADE FINANCING</span>
-                        </div>
-
-                        <div style="margin-top:20px">
-                            <span>Peer-to-peer business transaction mechanism based on blockchain technology is developed and explained</span>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 text-center" style="margin-top:50px">
-                        <div>
-                            <image src="{{ asset('images/feature-7.png') }}" style="width:25%;height:25%">
-                        </div>
-
-                        <div style="margin-top:20px">
-                            <span style="font-weight:bold">COST EFFECTIVE</span>
-                        </div>
-
-                        <div style="margin-top:20px">
-                            <span>Scale economy through decentralization leading to significant decrease in transaction fees</span>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 text-center" style="margin-top:50px">
-                        <div>
-                            <image src="{{ asset('images/feature-8.png') }}" style="width:25%;height:25%">
-                        </div>
-
-                        <div style="margin-top:20px">
-                            <span style="font-weight:bold">REAL-TIME DATABASE</span>
-                        </div>
-
-                        <div style="margin-top:20px">
-                            <span>Blockchain technology can be considered as one of the main drivers to achieve a substantial cost saving in real time database</span>
-                        </div>
-                    </div>
-                  </div>
-                </div>
-
-            <?php
-          } else{
-          ?>
-          <div class="row" >
-              <div class="col-lg-6 col-md-6 col-sm-6">
-                  <div class="row">
-                      <div class="col-lg-3 col-md-3 col-sm-3">
-                          <image src="{{ asset('images/feature-1.png') }}" style="width:100%;height:100%">
-                      </div>
-
-                      <div class="col-lg-9 col-md-9 col-sm-9" style="margin-top:auto;margin-bottom:auto">
-                        <div class="row" style="font-weight:bold">HIGH SPEED AND LOW COSTS</div>
-                        <div class="row" style="margin-top:10px">Immediate funding without third-parties. Smart contracts autonomously perform funding – collect and release payments</div>
-                      </div>
-                  </div>
-
-                  <div class="row" style="margin-top: 50px">
-                      <div class="col-lg-3 col-md-3">
-                          <image src="{{ asset('images/feature-3.png') }}" style="width:100%;height:100%">
-                      </div>
-
-                      <div class="col-lg-9 col-md-9" style="margin-top:auto;margin-bottom:auto">
-                        <div class="row" style="font-weight:bold">FAIR DEALS ONLY</div>
-                        <div class="row" style="margin-top:10px">Open-source smart contract ensures fair and transparent deals between merchants and affiliates</div>
-                      </div>
-                  </div>
-
-                  <div class="row" style="margin-top: 50px">
-                      <div class="col-lg-3 col-md-3">
-                          <image src="{{ asset('images/feature-5.png') }}" style="width:100%;height:100%">
-                      </div>
-
-                      <div class="col-lg-9 col-md-9" style="margin-top:auto;margin-bottom:auto">
-                        <div class="row" style="font-weight:bold">PROTECTION FROM HACKING</div>
-                        <div class="row" style="margin-top:10px">On a decentralized platform, all user accounts are independent; if one account is hacked, this won’t breach the security of.</div>
-                      </div>
-                  </div>
-
-                  <div class="row" style="margin-top: 50px">
-                      <div class="col-lg-3 col-md-3">
-                          <image src="{{ asset('images/feature-7.png') }}" style="width:100%;height:100%">
-                      </div>
-
-                      <div class="col-lg-9 col-md-9" style="margin-top:auto;margin-bottom:auto">
-                        <div class="row" style="font-weight:bold">COST EFFECTIVE</div>
-                        <div class="row" style="margin-top:10px">Scale economy through decentralization leading to significant decrease in transaction fees</div>
-                      </div>
-                  </div>
-              </div>
-
-              <div class="col-lg-6 col-md-6 col-sm-6">
-                <div class="row">
-                    <div class="col-lg-3 col-md-3">
-                        <image src="{{ asset('images/feature-2.png') }}" style="width:100%;height:100%">
-                    </div>
-
-                    <div class="col-lg-9 col-md-9" style="margin-top:auto;margin-bottom:auto">
-                      <div class="row" style="font-weight:bold">NO MORE MIDDLE MEN</div>
-                      <div class="row" style="margin-top:10px">Anyone can join or leave the network as they please without disrupting the network’s ability to form consensus on transactions. </div>
-                    </div>
-                </div>
-
-                <div class="row" style="margin-top: 50px">
-                    <div class="col-lg-3 col-md-3">
-                        <image src="{{ asset('images/feature-4.png') }}" style="width:100%;height:100%">
-                    </div>
-
-                    <div class="col-lg-9 col-md-9" style="margin-top:auto;margin-bottom:auto">
-                      <div class="row" style="font-weight:bold">EASY ENTRY AND FAIR COMPETITION</div>
-                      <div class="row" style="margin-top:10px">Taking a dynamic and reflexive perspective on the interaction between technology, law, and economics</div>
-                    </div>
-                </div>
-
-                <div class="row" style="margin-top: 50px">
-                    <div class="col-lg-3 col-md-3">
-                        <image src="{{ asset('images/feature-6.png') }}" style="width:100%;height:100%">
-                    </div>
-
-                    <div class="col-lg-9 col-md-9" style="margin-top:auto;margin-bottom:auto">
-                      <div class="row" style="font-weight:bold">GLOBAL P2P TRADE FINANCING</div>
-                      <div class="row" style="margin-top:10px">Peer-to-peer business transaction mechanism based on blockchain technology is developed and explained.</div>
-                    </div>
-                </div>
-
-                <div class="row" style="margin-top: 50px">
-                    <div class="col-lg-3 col-md-3">
-                        <image src="{{ asset('images/feature-8.png') }}" style="width:100%;height:100%">
-                    </div>
-
-                    <div class="col-lg-9 col-md-9" style="margin-top:auto;margin-bottom:auto">
-                      <div class="row" style="font-weight:bold">REAL-TIME DATABASE</div>
-                      <div class="row" style="margin-top:10px">Blockchain technology can be considered as one of the main drivers to achieve a substantial cost saving</div>
-                    </div>
-                </div>
-              </div>
-          </div>
-          <?php
-          }
-            ?>
         </div>
     </div>
 </div>
@@ -409,12 +76,12 @@
     <div class="heading text-center">
         <div class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.3s">
             <h6 class="sub-title">Tokenomics</h6>
-            <h2 class="title" style="color:#0047ab">Tokenomics</h2>
+            <h2 class="title" style="color:red">Tokenomics</h2>
         </div>
     </div>
-    <div class="content-area" style="color:green">
+    <div class="content-area" style="color:blue">
         <div class="row">
-            <div class="col-md-4 col-lg-4" style="border:solid;padding:20px">
+            <div class="col-md-4 col-lg-4">
                 <div style="margin-bottom:15px;">
                     <h3 style="font-size:25px" class="text-center">BUY FEES | 4%</h3>
                     <ul style="margin-top:20px; font-size: 17px">
@@ -431,7 +98,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4 col-lg-4" style="border:solid;padding:20px">
+            <div class="col-md-4 col-lg-4">
                 <div style="margin-bottom:15px;">
                     <h3 style="font-size:25px" class="text-center">SELL FEES | 4%</h3>
                     <ul style="margin-top:20px; font-size: 17px">
@@ -448,7 +115,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4 col-lg-4" style="border:solid;padding:20px">
+            <div class="col-md-4 col-lg-4">
                 <div style="margin-bottom:15px;">
                     <h3 style="font-size:25px" class="text-center">FEATURES</h3>
                     <ul style="margin-top:20px; font-size: 17px">
@@ -471,9 +138,9 @@
 
         <div class="row text-center" style="margin-top:20px">
             <div class="col-md-12 col-lg-12">
-              <ul style="margin-top:20px; font-size: 17px">
+              <ul style="margin-top:20px; font-size: 25px;font-weight:bold">
                   <li style="margin-top:10px">
-                    <span class="fa fa-table-columns" style="color:blue"></span> Token Symbol : $SSC
+                    <span class="fa fa-table-columns" style="color:blue"></span> Token Symbol : $KJI
                   </li>
                   <li style="margin-top:10px">
                     <span class="fa fa-table-columns" style="color:blue"></span> Token Supply : 1.000.000.000.000.000
@@ -494,7 +161,7 @@
 <div class="container">
     <div class="heading text-center">
         <div class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.3s">
-            <h2 class="title" style="color:#0047ab">Roadmap</h2>
+            <h2 class="title" style="color:red">Roadmap</h2>
         </div>
     </div>
     <div class="row animated" data-animation="fadeInUpShorter" data-animation-delay="0.6s">
@@ -521,7 +188,7 @@
 <div class="container">
     <div class="heading text-center">
         <div class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.3s">
-            <h2 class="title" style="color:#0047ab">Whitepaper</h2>
+            <h2 class="title" style="color:red">Whitepaper</h2>
         </div>
     </div>
     <div class="row animated" data-animation="fadeInUpShorter" data-animation-delay="0.6s">
