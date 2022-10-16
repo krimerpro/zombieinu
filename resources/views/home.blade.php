@@ -15,7 +15,7 @@
                 <div class="col-lg-12 col-md-12">
                     <div class="banner-content">
                       <div id="svg-animation">
-                          <img src="{{ asset('images/logo.png') }}" style="width:40%;height:40%;border-radius:50%;display: block;margin-left: auto;margin-right: auto">
+                         <img src="{{ asset('images/logo.png') }}" style="width:40%;height:40%;border-radius:50%;display: block;margin-left: auto;margin-right: auto">
                       </div>
 
                         <h1 class="best-template animated text-center" data-animation="fadeInUpShorter" data-animation-delay="1.5s" style="color:red;margin-top:20px">KINDER JOY INU</h1>
@@ -45,24 +45,68 @@
 
     <div class="content-area">
         <div class="row" style="margin-top:30px">
-            <div class="col-md-4 col-lg-4">
-                <image src="{{ asset('images/kinderjoy.png') }}" style="width:100%;height:100%">
+            <div class="col-md-4 col-lg-4 text-center">
+              <?php
+                if($agent->isMobile()){
+              ?>
+                  <image src="{{ asset('images/logo.png') }}" style="width:50%;">
+              <?php
+            } else{
+              ?>
+                  <image src="{{ asset('images/kinderjoy.png') }}" style="width:100%;height:100%">
+              <?php
+            }
+               ?>
+
             </div>
 
             <div class="col-md-8 col-lg-8" style="margin-top:auto; margin-bottom:auto">
-                <span style="color:black; font-size:22px;font-weight:bold">KINDER JOY</span><br/>
-                <span style="color:black; font-size:20px;">Kinder Joy (formerly known as Kinder Merendero in Italy and Bahrain) is a candy made by Italian confectionery company Ferrero as part of its Kinder brand of products. It has plastic egg-shaped packaging that splits into two; one half contains layers of cocoa and milk cream, and the other half contains a toy and a spoon on top of the wrapper. Kinder Joy was first launched in Italy in 2001 and as of 2018 was sold in 170 countries.</span>
+              <?php
+                if($agent->isMobile()){
+              ?>
+                  <span class="text-center" style="color:black; font-size:auto;font-weight:bold">KINDER JOY</span><br/>
+                  <span style="color:black; font-size:auto;">Kinder Joy (formerly known as Kinder Merendero in Italy and Bahrain) is a candy made by Italian confectionery company Ferrero as part of its Kinder brand of products. It has plastic egg-shaped packaging that splits into two; one half contains layers of cocoa and milk cream, and the other half contains a toy and a spoon on top of the wrapper. Kinder Joy was first launched in Italy in 2001 and as of 2018 was sold in 170 countries.</span>
+              <?php
+            } else{
+              ?>
+                  <span style="color:black; font-size:22px;font-weight:bold">KINDER JOY</span><br/>
+                  <span style="color:black; font-size:20px;">Kinder Joy (formerly known as Kinder Merendero in Italy and Bahrain) is a candy made by Italian confectionery company Ferrero as part of its Kinder brand of products. It has plastic egg-shaped packaging that splits into two; one half contains layers of cocoa and milk cream, and the other half contains a toy and a spoon on top of the wrapper. Kinder Joy was first launched in Italy in 2001 and as of 2018 was sold in 170 countries.</span>
+              <?php
+            }
+               ?>
             </div>
         </div>
 
         <div class="row" style="margin-top:50px">
             <div class="col-md-8 col-lg-8" style="margin-top:auto; margin-bottom:auto">
+              <?php
+                if($agent->isMobile()){
+              ?>
+              <span style="color:black; font-size:auto;font-weight:bold">KINDER JOY INU</span><br/>
+              <span style="color:black; font-size:auto">The novel design combines the tastiness of milky and cocoa cream in a sealed package, with the toy in a separate compartment. Great token with great utility in the future!</span>
+              <?php
+            } else{
+              ?>
               <span style="color:black; font-size:22px;font-weight:bold">KINDER JOY INU</span><br/>
               <span style="color:black; font-size:20px">The novel design combines the tastiness of milky and cocoa cream in a sealed package, with the toy in a separate compartment. Great token with great utility in the future!</span>
+              <?php
+            }
+               ?>
             </div>
 
             <div class="col-md-4 col-lg-4">
-                <image src="{{ asset('images/logo.png') }}" style="width:100%;height:100%">
+              <?php
+                if($agent->isMobile()){
+                  ?>
+                      &nbsp;
+                  <?php
+                } else{
+                  ?>
+                      <image src="{{ asset('images/logo.png') }}" style="width:100%;height:100%">
+                  <?php
+                }
+               ?>
+
             </div>
         </div>
     </div>
@@ -133,22 +177,6 @@
                         </li>
                     </ul>
                 </div>
-            </div>
-        </div>
-
-        <div class="row text-center" style="margin-top:20px">
-            <div class="col-md-12 col-lg-12">
-              <ul style="margin-top:20px; font-size: 25px;font-weight:bold">
-                  <li style="margin-top:10px">
-                    <span class="fa fa-table-columns" style="color:blue"></span> Token Symbol : $KJI
-                  </li>
-                  <li style="margin-top:10px">
-                    <span class="fa fa-table-columns" style="color:blue"></span> Token Supply : 1.000.000.000.000.000
-                  </li>
-                  <li style="margin-top:10px">
-                    <span class="fa fa-table-columns" style="color:blue"></span> Initial Liquidity Pool : 2 BNB
-                  </li>
-              </ul>
             </div>
         </div>
     </div>
