@@ -22,8 +22,8 @@
                         <h5 class="d-block white animated text-center" data-animation="fadeInUpShorter" data-animation-delay="1.6s" style="color:grey">Yummy, Entertaining and Unique Snack</h5>
                         <div class="mt-5 text-center">
                             <a href="https://t.me/KinderJoyInu" class="btn btn-lg btn-gradient-orange btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px">Telegram</a>
-                            <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xA9D44f0B39488cd480710003A1cafa19fE80F362" class="btn btn-lg btn-gradient-orange btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px">Buy Token</a>
-                            <a href="https://poocoin.app/tokens/0xA9D44f0B39488cd480710003A1cafa19fE80F362" class="btn btn-lg btn-gradient-orange btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px">Chart</a>
+                            <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xe7FE6BF8e0724855F2De9e52595c8C44CA32b9bF" class="btn btn-lg btn-gradient-orange btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px">Buy Token</a>
+                            <a href="https://poocoin.app/tokens/0xe7FE6BF8e0724855F2De9e52595c8C44CA32b9bF" class="btn btn-lg btn-gradient-orange btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px">Chart</a>
                         </div>
                     </div>
                 </div>
