@@ -3,11 +3,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<meta name="description" content="KINDER JOY INU | BSC">
-<meta name="keywords" content="crypto, kinder, joy, inu, kinderjoyinu, bitcoin, bsc, binance, binancesmartchain">
-<meta name="author" content="KINDER JOY INU">
+<meta name="description" content="GARUDA FIFA | BSC">
+<meta name="keywords" content="garuda, fifa, garudafifa, bsc, bitcoin, binance, binancesmartchain, crypto">
+<meta name="author" content="GARUDA FIFA">
 
-<title>KINDER JOY INU | BSC</title>
+<title>GARUDA FIFA | BSC</title>
 <link rel="icon" type="image/x-icon" href="{{ asset('images/logo.png') }}">
 
 <!-- Fonts -->

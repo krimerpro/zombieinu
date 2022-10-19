@@ -6,16 +6,16 @@
 <!-- Header Start-->
 <header class="page-header">
   <!-- Horizontal Menu Start-->
-  <nav class="main-menu static-top navbar-dark navbar navbar-expand-lg fixed-top mb-1" style="background:orange"><div class="container">
+  <nav class="main-menu static-top navbar-dark navbar navbar-expand-lg fixed-top mb-1" style="background:black"><div class="container">
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" style="background:green">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" style="background:orange">
       <span class="navbar-toggler-icon"></span>
   </button>
 <div class="collapse navbar-collapse" id="navbarCollapse">
     <div id="navigation" class="navbar-nav" style="width:100%">
         <ul class="navbar-nav mt-1">
             <li class="nav-item animated" data-animation="fadeInDown" data-animation-delay="1.1s">
-                <a class="nav-link" href="/" style="color:white;font-size:large">KINDER JOY INU</a>
+                <a class="nav-link" href="/" style="color:white;font-size:large">GARUDA FIFA</a>
             </li>
             <li class="nav-item animated" data-animation="fadeInDown" data-animation-delay="1.1s">
                 <a class="nav-link" href="#about" style="color:white;font-size:large">About</a>
