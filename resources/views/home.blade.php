@@ -21,9 +21,9 @@
                         <h1 class="best-template animated text-center" data-animation="fadeInUpShorter" data-animation-delay="1.5s" style="color:orange;margin-top:20px">GARUDA FIFA COMMUNITY TOKEN</h1>
                         <h5 class="d-block white animated text-center" data-animation="fadeInUpShorter" data-animation-delay="1.6s" style="color:grey">LOCAL PRODUCT, GOES TO GLOBAL</h5>
                         <div class="mt-5 text-center">
-                          <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=" class="btn btn-lg btn-gradient-orange btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px;background:black">Buy Token</a>
+                          <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x879979c1cb5209512d9d4efed9f70375b99b14c2" class="btn btn-lg btn-gradient-orange btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px;background:black">Buy Token</a>
                             <a href="https://t.me/GarudaFifa" class="btn btn-lg btn-gradient-orange btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px;background:black">Telegram</a>
-                            <a href="https://poocoin.app/tokens/" class="btn btn-lg btn-gradient-orange btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px;background:black">Chart</a>
+                            <a href="https://poocoin.app/tokens/0x879979c1cb5209512d9d4efed9f70375b99b14c2" class="btn btn-lg btn-gradient-orange btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px;background:black">Chart</a>
                         </div>
                     </div>
                 </div>
