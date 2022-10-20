@@ -29,6 +29,9 @@
             <li class="nav-item animated" data-animation="fadeInDown" data-animation-delay="1.5s">
                 <a class="nav-link" href="#whitepaper" style="color:white;font-size:large">Whitepaper</a>
             </li>
+            <li class="nav-item animated" data-animation="fadeInDown" data-animation-delay="1.5s">
+                <a class="nav-link" href="#prototype" style="color:white;font-size:large">App</a>
+            </li>
         </ul>
         <span id="slide-line"></span>
         <!-- <form class="form-inline mt-2 mt-md-0 text-right" style="margin-left:auto">

@@ -126,6 +126,26 @@
 </section>
 <!--/ Roadmap -->
 
+<!-- Prototype -->
+<section id="prototype" class="roadmap section-padding">
+<div class="container">
+    <div class="heading text-center">
+        <div class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.3s">
+            <h2 class="title" style="color:orange">App</h2>
+            <h4 class="title" style="color:orange">Upcoming NFTs Marketplace</h4>
+        </div>
+    </div>
+    <div class="row animated" data-animation="fadeInUpShorter" data-animation-delay="0.6s">
+        <div class="row" style="display:block; margin:auto;">
+            <div class="col-md-12 col-lg-12 text-center">
+                <img src="{{ asset('images/marketplace.jpeg') }}" style="width:100%;height:100%" >
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!--/ Prototype -->
+
     </main>
   </div>
 </div>
