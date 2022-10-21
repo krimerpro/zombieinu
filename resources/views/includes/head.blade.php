@@ -3,11 +3,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<meta name="description" content="GARUDA FIFA | BSC">
-<meta name="keywords" content="garuda, fifa, garudafifa, bsc, bitcoin, binance, binancesmartchain, crypto">
-<meta name="author" content="GARUDA FIFA">
+<meta name="description" content="QATAR 2022 | BSC">
+<meta name="keywords" content="qatar, fifa, 2022, bsc, bitcoin, binance, binancesmartchain, crypto">
+<meta name="author" content="QATAR 2022">
 
-<title>GARUDA FIFA | BSC</title>
+<title>QATAR 2022 | BSC</title>
 <link rel="icon" type="image/x-icon" href="{{ asset('images/logo.png') }}">
 
 <!-- Fonts -->

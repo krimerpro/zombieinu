@@ -18,7 +18,7 @@
     <div class="col-md-5 col-lg-5">&nbsp;</div>
 </div>
 <div class="copy-right mx-auto text-center">
-  <span class="copyright" style="color:green">Copyright &copy; 2022, GARUDA FIFA TEAM FOUNDATION.</span>
+  <span class="copyright" style="color:green">Copyright &copy; 2022, QATAR 2022 TEAM</span>
 </div>
 </div>
 </div>
