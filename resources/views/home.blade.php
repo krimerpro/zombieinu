@@ -21,8 +21,8 @@
                         <h1 class="best-template animated text-center" data-animation="fadeInUpShorter" data-animation-delay="1.5s" style="color:#630E2B;margin-top:20px">Countdown to Qatar 2022</h1>
                         <h5 class="d-block white animated text-center" data-animation="fadeInUpShorter" data-animation-delay="1.6s" style="color:#630E2B">As we count down to the start of the global showpiece in Qatar on 20 November, QATAR 2022 Token will be the part of the great NFTs Marketplace in FIFA World Cup history.</h5>
                         <div class="mt-5 text-center">
-                          <a href="https://poocoin.app/tokens/" class="btn btn-lg btn-gradient-orange btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px;background:#630E2B">Poocoin Chart</a>
-                          <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=" class="btn btn-lg btn-gradient-orange btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px;background:#630E2B">Buy on Pancakeswap</a>
+                          <a href="https://poocoin.app/tokens/0xc00CCB8fEDf83c3CbeC3e375Aa8D58Fe06f4FF4a" class="btn btn-lg btn-gradient-orange btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px;background:#630E2B">Poocoin Chart</a>
+                          <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xc00CCB8fEDf83c3CbeC3e375Aa8D58Fe06f4FF4a" class="btn btn-lg btn-gradient-orange btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px;background:#630E2B">Buy on Pancakeswap</a>
                           <a href="https://t.me/Qatar2022Portal" class="btn btn-lg btn-gradient-orange btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px;background:#630E2B">Official TG</a>
                         </div>
                     </div>
