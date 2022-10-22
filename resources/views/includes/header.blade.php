@@ -1,17 +1,17 @@
 <!-- Header Start-->
 <header class="page-header">
   <!-- Horizontal Menu Start-->
-  <nav class="main-menu static-top navbar-dark navbar navbar-expand-lg fixed-top mb-1" style="background:#630E2B">
+  <nav class="main-menu static-top navbar-dark navbar navbar-expand-lg fixed-top mb-1" style="background:white">
     <div class="container">
       <?php
         if($agent->isMobile()){
       ?>
-            <img src="{{ asset('images/qatar-text.png') }}" style="width:40%;margin-left:20px">
+            <h4 style="margin:auto">X PROTOCOL</h4>
       <?php
           }
       ?>
 
-      <button class="navbar-toggler text-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler text-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" style="background:black">
           <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -22,27 +22,21 @@
                 if(!$agent->isMobile()){
               ?>
                   <li class="nav-item animated" data-animation="fadeInDown" data-animation-delay="1.1s">
-                      <a class="nav-link" href="/" style="color:white;font-size:large">QATAR 2022</a>
+                      <a class="nav-link" href="/" style="color:black;font-size:large">X PROTOCOL</a>
                   </li>
               <?php } ?>
 
               <li class="nav-item animated" data-animation="fadeInDown" data-animation-delay="1.1s">
-                  <a class="nav-link" href="#head-area" style="color:white;font-size:large">Home</a>
+                  <a class="nav-link" href="#head-area" style="color:black;font-size:large">Home</a>
               </li>
               <li class="nav-item animated" data-animation="fadeInDown" data-animation-delay="1.1s">
-                  <a class="nav-link" href="#about" style="color:white;font-size:large">About</a>
+                  <a class="nav-link" href="#utility" style="color:black;font-size:large">Utility</a>
+              </li>
+              <li class="nav-item animated" data-animation="fadeInDown" data-animation-delay="1.1s">
+                  <a class="nav-link" href="#tokenomics" style="color:black;font-size:large">Tokenomics</a>
               </li>
               <li class="nav-item animated" data-animation="fadeInDown" data-animation-delay="1.5s">
-                  <a class="nav-link" href="#whitepaper" style="color:white;font-size:large">Whitepaper</a>
-              </li>
-              <li class="nav-item animated" data-animation="fadeInDown" data-animation-delay="1.1s">
-                  <a class="nav-link" href="#utility" style="color:white;font-size:large">Utility</a>
-              </li>
-              <li class="nav-item animated" data-animation="fadeInDown" data-animation-delay="1.1s">
-                  <a class="nav-link" href="#tokenomics" style="color:white;font-size:large">Tokenomics</a>
-              </li>
-              <li class="nav-item animated" data-animation="fadeInDown" data-animation-delay="1.5s">
-                  <a class="nav-link" href="#roadmap" style="color:white;font-size:large">Plan</a>
+                  <a class="nav-link" href="#roadmap" style="color:black;font-size:large">Roadmap</a>
               </li>
           </ul>
           <span id="slide-line"></span>

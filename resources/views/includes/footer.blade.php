@@ -9,7 +9,17 @@
   <div class="col-md-2 col-lg-2" style="text-align:center">
     <div class="about">
       <div class="title animated" data-animation="fadeInUpShorter" data-animation-delay="0.2s">
-        <img src="{{ asset('images/logo.png') }}" alt="Logo" style="width:100%;height:100%">
+        <?php
+          if(!$agent->isMobile()){
+        ?>
+            <img src="{{ asset('images/logo.png') }}" alt="Logo" style="width:100%;height:100%">
+        <?php
+      } else{
+        ?>
+            <img src="{{ asset('images/logo.png') }}" alt="Logo" style="width:50%;height:50%">
+        <?php
+      }
+        ?>
       </div>
 
     </div>
@@ -18,7 +28,7 @@
     <div class="col-md-5 col-lg-5">&nbsp;</div>
 </div>
 <div class="copy-right mx-auto text-center">
-  <span class="copyright" style="color:green">Copyright &copy; 2022, QATAR 2022 TEAM</span>
+  <span class="copyright" style="color:white">Copyright &copy; 2022, X PROTOCOL - BSC TEAM</span>
 </div>
 </div>
 </div>
