@@ -72,7 +72,7 @@
 
                 <div style="margin-bottom:15px;border-bottom-style: solid;">
                     <h3 style="font-size:16px">Max Supply</h3>
-                    <h4 style="font-size:24px">1.000.000.000.000.000</h4>
+                    <h4 style="font-size:24px">1.000.000.000</h4>
                 </div>
 
                 <div style="margin-bottom:15px;border-bottom-style: solid;">
@@ -82,7 +82,7 @@
 
                 <div style="margin-bottom:15px;border-bottom-style: solid;">
                     <h3 style="font-size:16px">Tax</h3>
-                    <h4 style="font-size:24px">11% Buy | 11% Sell</h4>
+                    <h4 style="font-size:24px">4% Buy | 4% Sell</h4>
                 </div>
 
                 <div style="margin-bottom:15px;border-bottom-style: solid;">
@@ -97,7 +97,7 @@
 
                 <div style="margin-bottom:15px;">
                     <h3 style="font-size:16px">Initial LP</h3>
-                    <h4 style="font-size:24px">1 BNB + 90% Total Supply</h4>
+                    <h4 style="font-size:24px">2 BNB + 96% Total Supply</h4>
                 </div>
             </div>
         </div>
