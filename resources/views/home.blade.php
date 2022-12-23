@@ -23,7 +23,7 @@
                         <div class="mt-5 text-center">
                           <a href="{{ asset('/documents/whitepaper.pdf') }}" class="btn btn-lg btn-gradient-blue btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px;">WHITEPAPER</a>
                           <a href="https://t.me/XProtocolPortal" class="btn btn-lg btn-gradient-blue btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px;">TG OFFICIAL</a>
-                          <a href="https://poocoin.app/tokens/0x1d0c5a89b1E01720F429a9F281aCe5b058312f62" class="btn btn-lg btn-gradient-blue btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px;">CHART</a>
+                          <a href="https://poocoin.app/tokens/0x2ca8dcfab64ac4a57d31e196485e0313d14a3cdb" class="btn btn-lg btn-gradient-blue btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px;">CHART</a>
                         </div>
                     </div>
                 </div>
