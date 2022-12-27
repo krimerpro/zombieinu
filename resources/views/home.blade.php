@@ -18,12 +18,12 @@
                          <img src="{{ asset('images/logo.png') }}" style="width:40%;height:40%;display: block;margin-left: auto;margin-right: auto">
                       </div>
 
-                        <h1 class="best-template animated text-center" data-animation="fadeInUpShorter" data-animation-delay="1.5s" style="color:white;margin-top:20px">Smart advertising for the crypto industry</h1>
-                        <h5 class="d-block white animated text-center" data-animation="fadeInUpShorter" data-animation-delay="1.6s" style="color:white">We are creating products that combine cutting-edge technologies for a better now</h5>
+                        <h1 class="best-template animated text-center" data-animation="fadeInUpShorter" data-animation-delay="1.5s" style="color:purple;margin-top:20px">Imori are the ghosts of dead warriors transformed into geckos. They haunt the forgotten, overgrown ruins where they lost their lives, attacking and harassing trespassers.</h1>
+                        <h5 class="d-block white animated text-center" data-animation="fadeInUpShorter" data-animation-delay="1.6s" style="color:purple">Imori NFTs will be ready for minting soon</h5>
                         <div class="mt-5 text-center">
-                          <a href="{{ asset('/documents/whitepaper.pdf') }}" class="btn btn-lg btn-gradient-blue btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px;">WHITEPAPER</a>
-                          <a href="https://t.me/XProtocolPortal" class="btn btn-lg btn-gradient-blue btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px;">TG OFFICIAL</a>
-                          <a href="https://poocoin.app/tokens/0x31226A85eb4fA7B26102c982265792bE98352303" class="btn btn-lg btn-gradient-blue btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px;">CHART</a>
+                          <a href="https://medium.com/@DavidWilliamIt/imori-%E5%AE%88%E5%AE%AE-af40ad21f976" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px;">MEDIUM</a>
+                          <a href="https://t.me/ImoriProjectErc20" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px;">Official Group</a>
+                          <a href="https://www.dextools.io/app/en/ether/pair-explorer/" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px;">DEXTOOLS CHART</a>
                         </div>
                     </div>
                 </div>
@@ -35,17 +35,17 @@
 <!--/ Header: 3D Animation -->
 
 <!-- Utility -->
-<section id="utility" class="roadmap section-padding">
+<section id="nfts" class="roadmap section-padding">
 <div class="container">
     <div class="heading text-center">
         <div class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.3s">
-            <h2 class="title" style="color:white">Upcoming Utility</h2>
+            <h2 class="title" style="color:purple">Upcoming NFTs</h2>
         </div>
     </div>
     <div class="row animated" data-animation="fadeInUpShorter" data-animation-delay="0.6s">
         <div class="row">
             <div class="col-md-12 col-lg-12 text-center">
-                <img src="{{ asset('images/product.png') }}" style="width:45%;" >
+                <img src="{{ asset('images/nfts.png') }}" >
             </div>
         </div>
     </div>
@@ -59,46 +59,53 @@
 <div class="container">
     <div class="heading text-center">
         <div class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.3s">
-            <h2 class="title" style="color:white">Tokenomics</h2>
+            <h2 class="title" style="color:purple">Tokenomics</h2>
         </div>
     </div>
-    <div class="content-area" style="color:#ffffff">
+    <div class="content-area" style="color:#purple">
         <div class="row">
-            <div class="col-md-12 col-lg-12 text-center">
+            <div class="col-md-6 col-lg-6 text-center">
                 <div style="margin-bottom:15px;border-bottom-style: solid;">
-                    <h3 style="font-size:16px">Token Symbol</h3>
-                    <h4 style="font-size:24px">XPT</h4>
+                    <h3 style="font-size:16px">Ticker</h3>
+                    <h4 style="font-size:24px;color:purple">Imori</h4>
                 </div>
 
                 <div style="margin-bottom:15px;border-bottom-style: solid;">
                     <h3 style="font-size:16px">Max Supply</h3>
-                    <h4 style="font-size:24px">1.000.000.000</h4>
+                    <h4 style="font-size:24px;color:purple">8.000.000</h4>
                 </div>
 
                 <div style="margin-bottom:15px;border-bottom-style: solid;">
                     <h3 style="font-size:16px">Decimals</h3>
-                    <h4 style="font-size:24px">9</h4>
+                    <h4 style="font-size:24px;color:purple">9</h4>
                 </div>
+
+            </div>
+
+            <div class="col-md-6 col-lg-6 text-center">
 
                 <div style="margin-bottom:15px;border-bottom-style: solid;">
                     <h3 style="font-size:16px">Tax</h3>
-                    <h4 style="font-size:24px">4% Buy | 4% Sell</h4>
+                    <h4 style="font-size:24px;color:purple">4% Buy | 4% Sell</h4>
                 </div>
 
                 <div style="margin-bottom:15px;border-bottom-style: solid;">
                     <h3 style="font-size:16px">Max Wallet</h3>
-                    <h4 style="font-size:24px">4%</h4>
+                    <h4 style="font-size:24px;color:purple">4%</h4>
                 </div>
 
                 <div style="margin-bottom:15px;border-bottom-style: solid;">
                     <h3 style="font-size:16px">Max Tx</h3>
-                    <h4 style="font-size:24px">4%</h4>
+                    <h4 style="font-size:24px;color:purple">4%</h4>
                 </div>
 
-                <div style="margin-bottom:15px;">
-                    <h3 style="font-size:16px">Initial LP</h3>
-                    <h4 style="font-size:24px">2 BNB + 96% Total Supply</h4>
-                </div>
+            </div>
+
+            <div class="col-md-12 col-lg-12 text-center">
+              <div style="margin-bottom:15px;">
+                  <h3 style="font-size:16px">Initial LP</h3>
+                  <h4 style="font-size:24px;color:purple">1 WETH</h4>
+              </div>
             </div>
         </div>
     </div>
@@ -106,43 +113,9 @@
 </section>
 <!--/ Tokenonmics -->
 
-<!-- Roadmap -->
-<section id="roadmap" class="roadmap section-padding">
-<div class="container">
-    <div class="heading text-center">
-        <div class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.3s">
-            <h2 class="title" style="color:white">Roadmap</h2>
-        </div>
-    </div>
-    <div class="row animated" data-animation="fadeInUpShorter" data-animation-delay="0.6s">
-        <div class="row">
-            <div class="col-md-12 col-lg-12">
-                <img src="{{ asset('images/roadmap.png') }}" style="width:100%;height:100%" >
-            </div>
-        </div>
-    </div>
-</div>
-</section>
-<!--/ Roadmap -->
-
     </main>
   </div>
 </div>
 <!-- //////////////////////////////////// FOOTER ////////////////////////////////////-->
-
-<script type="text/javascript">
-
-  function copyContract() {
-    var copyText = document.getElementById("smartcontractaddress");
-
-    copyText.select();
-    copyText.setSelectionRange(0, 99999); /* For mobile devices */
-
-    document.execCommand("copy");
-
-    alert("Text copied to clipboard");
-  }
-
-</script>
 
 @stop

@@ -3,11 +3,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<meta name="description" content="X PROTOCOL | BSC">
-<meta name="keywords" content="xprotocol, blockchain, bsc, bitcoin, binance, binancesmartchain, crypto">
-<meta name="author" content="X PROTOCOL">
+<meta name="description" content="IMORI PROJECT | ETHEREUM">
+<meta name="keywords" content="imori, project, ethereum, imoriproject, blockchain, cryptocurrency">
+<meta name="author" content="IMORI">
 
-<title>X PROTOCOL | BSC</title>
+<title>IMORI PROJECT | ETHEREUM</title>
 <link rel="icon" type="image/x-icon" href="{{ asset('images/logo.png') }}">
 
 <!-- Fonts -->
