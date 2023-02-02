@@ -22,8 +22,9 @@
                         <h5 class="d-block white animated text-center" data-animation="fadeInUpShorter" data-animation-delay="1.6s" style="color:purple">Imori NFTs will be ready for minting soon</h5>
                         <div class="mt-5 text-center">
                           <a href="https://medium.com/@DavidWilliamEx/imori-%E5%AE%88%E5%AE%AE-187b86da13eb" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px;">MEDIUM</a>
-                          <a href="https://t.me/ImoriProjectErc20" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px;">Official Group</a>
+                          <a href="https://t.me/ImoriProjectErc20" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px;">Official Group</a><br/>
                           <a href="https://www.dextools.io/app/en/ether/pair-explorer/" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px;">DEXTOOLS CHART</a>
+                          <a href="https://twitter.com/ImoriProject" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s" style="margin-left: 25px;">TWITTER</a>
                         </div>
                     </div>
                 </div>
