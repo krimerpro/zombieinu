@@ -28,7 +28,7 @@
     <div class="col-md-5 col-lg-5">&nbsp;</div>
 </div>
 <div class="copy-right mx-auto text-center">
-  <span class="copyright" style="color:purple">Copyright &copy; 2022, IMORI TEAM</span>
+  <span class="copyright" style="color:purple">Copyright &copy; 2023, IMORI TEAM</span>
 </div>
 </div>
 </div>
