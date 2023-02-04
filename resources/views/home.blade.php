@@ -85,17 +85,17 @@
 
                             <div style="margin-bottom:15px;border-bottom-style: solid;">
                                 <h3 style="font-size:16px">Tax</h3>
-                                <h4 style="font-size:24px;color:purple">4% Buy | 4% Sell</h4>
+                                <h4 style="font-size:24px;color:purple">5% Buy | 5% Sell</h4>
                             </div>
 
                             <div style="margin-bottom:15px;border-bottom-style: solid;">
                                 <h3 style="font-size:16px">Max Wallet</h3>
-                                <h4 style="font-size:24px;color:purple">4%</h4>
+                                <h4 style="font-size:24px;color:purple">5%</h4>
                             </div>
 
                             <div style="margin-bottom:15px;border-bottom-style: solid;">
                                 <h3 style="font-size:16px">Max Tx</h3>
-                                <h4 style="font-size:24px;color:purple">4%</h4>
+                                <h4 style="font-size:24px;color:purple">5%</h4>
                             </div>
 
                         </div>
@@ -103,7 +103,7 @@
                         <div class="col-md-12 col-lg-12 text-center">
                           <div style="margin-bottom:15px;">
                               <h3 style="font-size:16px">Initial LP</h3>
-                              <h4 style="font-size:24px;color:purple">1 WETH</h4>
+                              <h4 style="font-size:24px;color:purple">0.5 WETH</h4>
                           </div>
                         </div>
                     </div>
