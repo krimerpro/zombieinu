@@ -1,46 +1,46 @@
-<!-- Header Start-->
-<header class="page-header">
-  <!-- Horizontal Menu Start-->
-  <nav class="main-menu static-top navbar-dark navbar navbar-expand-lg fixed-top mb-1" style="background:purple">
-    <div class="container">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" style="background:white;margin-left:20px">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <?php
-        if($agent->isMobile()){
-      ?>
-            <h4 style="margin:auto">IMORI</h4>
-      <?php
-          }
-      ?>
-
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div id="navigation" class="navbar-nav" style="width:100%">
-            <ul class="navbar-nav mt-1">
-              <?php
-                if(!$agent->isMobile()){
-              ?>
-                  <li class="nav-item animated" data-animation="fadeInDown" data-animation-delay="1.1s">
-                      <a class="nav-link" href="/" style="color:white;font-size:large">IMORI</a>
-                  </li>
-              <?php } ?>
-
-              <li class="nav-item animated" data-animation="fadeInDown" data-animation-delay="1.1s">
-                  <a class="nav-link" href="#head-area" style="color:white;font-size:large">Home</a>
-              </li>
-              <li class="nav-item animated" data-animation="fadeInDown" data-animation-delay="1.1s">
-                  <a class="nav-link" href="#nfts" style="color:white;font-size:large">NFTs</a>
-              </li>
-              <li class="nav-item animated" data-animation="fadeInDown" data-animation-delay="1.1s">
-                  <a class="nav-link" href="#tokenomics" style="color:white;font-size:large">Tokenomics</a>
-              </li>
-          </ul>
-          <span id="slide-line"></span>
-        </div>
-      </div>
+<!-- loading -->
+<div id="loading">
+    <div id="loading-center">
+        <div class="spinner"></div>
+        <img class="loading-img" src="images/loader.png" alt="loder">
     </div>
-  </nav>
-  <!-- /Horizontal Menu End-->
+</div>
+<!-- loading End -->
+
+<header id="header" class="header-with-searchbar" style="background:black">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-lg-9">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="/">
+                        <img class="img-fluid logo" src="images/logo-white.png" alt="vizion">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <div class="menu-top-menu-container">
+                            <ul id="top-menu" class="navbar-nav ml-auto">
+                                <li class="menu-item"><a href="#" aria-current="page">Home</a></li>
+                                <li class="menu-item">
+                                    <a href="#about" class="isubmenu">About</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#tokenomic" class="isubmenu">Tokenomic</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#environment" class="isubmenu">Environment</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-lg-3 text-right">
+                <ul class="login">
+                    <li class="d-inline active"><a href="#" class="login-btn">EXPLORE MORE</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </header>
-<!-- /Header End-->

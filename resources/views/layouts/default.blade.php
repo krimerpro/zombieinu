@@ -1,31 +1,18 @@
 <!doctype html>
-<html>
-<head>
-   @include('includes.head')
-</head>
-<body class=" 1-column undefined  page-animated svg-wrapper" data-menu-open="hover" data-menu="" style="background:white;">
+<html lang="en-US" class="no-js no-svg">
+  <head>
+     @include('includes.head')
+  </head>
 
-<?php
-  if(Route::current()->getName() != 'nft'){
-?>
-    <div class="container">
+  <body data-spy="scroll" data-offset="80" class="home theme-vizion vizion-front-page colors-light space-science " style="margin-left:10px;margin-right:-25px">
+     <header class="row">
+         @include('includes.header')
+     </header>
 
-<?php
-  } else{
-?>
-    <div>
-<?php
-  }
-?>
-   <header class="row">
-       @include('includes.header')
-   </header>
-   <div id="main" class="row">
-           @yield('content')
-   </div>
-   <footer class="row">
-       @include('includes.footer')
-   </footer>
-</div>
-</body>
+     @yield('content')
+
+     <footer class="row">
+         @include('includes.footer')
+     </footer>
+  </body>
 </html>
