@@ -321,14 +321,14 @@
                             <div class="iq-space-counter wow fadeInUp" data-wow-duration="0.9s"  style="box-shadow: 0px 0px 65px 0px #5748eb,inset 0px 0px 54px 0px #5748eb;">
                                 <span class="timer" data-to="3" data-speed="1000">3</span>
                                 <span class="timer-text">%</span>
-                                <h6>MAX BAG</h6>
+                                <h6>MAX BAG & TX</h6>
                             </div>
                         </div>
                         <div class="col-sm-12 col-lg-3 col-md-6">
                             <div class="iq-space-counter wow fadeInUp" data-wow-duration="0.9s"  style="box-shadow: 0px 0px 65px 0px #eda15d,inset 0px 0px 54px 0px #eda15d;">
-                                <span class="timer" data-to="3" data-speed="1000">3</span>
+                                <span class="timer" data-to="10000000" data-speed="5000">10000000</span>
                                 <span class="timer-text">%</span>
-                                <h6>MAX TRANSACTION</h6>
+                                <h6>TOTAL SUPPLY</h6>
                             </div>
                         </div>
                         <div class="col-sm-12 col-lg-3 col-md-6">
