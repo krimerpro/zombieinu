@@ -327,7 +327,7 @@
                         <div class="col-sm-12 col-lg-3 col-md-6">
                             <div class="iq-space-counter wow fadeInUp" data-wow-duration="0.9s"  style="box-shadow: 0px 0px 65px 0px #eda15d,inset 0px 0px 54px 0px #eda15d;">
                                 <span class="timer" data-to="10000000" data-speed="5000">10000000</span>
-                                <span class="timer-text">%</span>
+                                <span class="timer-text"></span>
                                 <h6>TOTAL SUPPLY</h6>
                             </div>
                         </div>
