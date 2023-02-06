@@ -278,7 +278,7 @@
                     </div>
                     <div class="blog-card-text">
                         <div class="blog-category">Technology</div>
-                        <h3><a href="single-blog.html">Is Machine Learning Right Going On Good Way</a></h3>
+                        <h3><a href="#">Is Machine Learning Right Going On Good Way</a></h3>
                     </div>
                 </div>
             </div>
@@ -291,7 +291,7 @@
                     </div>
                     <div class="blog-card-text">
                         <div class="blog-category">Robot</div>
-                        <h3><a href="single-blog.html">The Current State Of Artificial Intelligence Infographic</a></h3>
+                        <h3><a href="#">The Current State Of Artificial Intelligence Infographic</a></h3>
                     </div>
                 </div>
             </div>
