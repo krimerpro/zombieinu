@@ -34,10 +34,10 @@
                 <h3>Follow Us</h3>
                 <ul class="social-list">
                     <li>
-                        <a href="#" target="_blank"><i class="icofont-twitter"></i></a>
+                        <a href="https://twitter.com/ErudexAI" target="_blank"><i class="icofont-twitter"></i></a>
                     </li>
                     <li>
-                        <a href="#" target="_blank"><i class="icofont-instagram"></i></a>
+                        <a href="https://t.me/ErudexAiPortal" target="_blank"><i class="icofont-paper-plane"></i></a>
                     </li>
                 </ul>
             </div>
