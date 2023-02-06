@@ -4,7 +4,7 @@
      @include('includes.head')
   </head>
 
-  <body data-spy="scroll" data-offset="80" class="home theme-vizion vizion-front-page colors-light space-science " style="margin-left:10px;margin-right:-25px">
+  <body>
      <header class="row">
          @include('includes.header')
      </header>

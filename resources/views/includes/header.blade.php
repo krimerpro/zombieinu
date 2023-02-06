@@ -1,46 +1,97 @@
-<!-- loading -->
-<div id="loading">
-    <div id="loading-center">
-        <div class="spinner"></div>
-        <img class="loading-img" src="images/loader.png" alt="loder">
+<!-- Preloader -->
+<div class="preloader">
+    <div class="preloader-wrapper">
+        <div class="preloader-content">
+            <div class="blob-1"></div>
+          <div class="blob-2"></div>
+        </div>
     </div>
 </div>
-<!-- loading End -->
-
-<header id="header" class="header-with-searchbar" style="background:black">
-    <div class="container-fluid">
-        <div class="row align-items-center">
-            <div class="col-lg-9">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="/">
-                        <img class="img-fluid logo" src="images/logo-white.png" alt="vizion">
+<!-- Preloader -->
+<!-- Navbar -->
+<div class="fixed-top bg-white">
+    <div class="navbar-area sticky-black">
+        <div class="container">
+            <div class="mobile-nav">
+                <a href="#" class="mobile-brand">
+                    <img src="{{ asset('images/logo.png') }}" alt="logo" class="logo">
+                </a>
+                <div class="navbar-option">
+                    <div class="navbar-option-item">
+                        <button type="button">
+                            <i class="flaticon-user" ></i>
+                        </button>
+                    </div>
+                    <div class="navbar-option-item side-topbar-option">
+                        <button type="button">
+                            <i class="flaticon-grid" ></i>
+                        </button>
+                    </div>
+                    <div class="navbar-option-item">
+                        <button type="button" class="search-option">
+                            <i class="icofont-search-1"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-nav">
+            <div class="container">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a class="navbar-brand" href="#">
+                        <img src="{{ asset('images/logo.png') }}" alt="logo" class="logo">
                     </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <div class="menu-top-menu-container">
-                            <ul id="top-menu" class="navbar-nav ml-auto">
-                                <li class="menu-item"><a href="#" aria-current="page">Home</a></li>
-                                <li class="menu-item">
-                                    <a href="#about" class="isubmenu">About</a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="#tokenomic" class="isubmenu">Tokenomic</a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="#environment" class="isubmenu">Environment</a>
-                                </li>
-                            </ul>
+                    <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">HOME</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#about" class="nav-link">ABOUT US</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#services" class="nav-link">SERVICES</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#projects" class="nav-link">PROJECTS</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#news" class="nav-link">NEWS</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="navbar-option">
+                        <div class="navbar-option-item">
+                            <a href="#" class="btn main-btn">More Features</a>
                         </div>
                     </div>
                 </nav>
             </div>
-            <div class="col-lg-3 text-right">
-                <ul class="login">
-                    <li class="d-inline active"><a href="#" class="login-btn">EXPLORE MORE</a></li>
-                </ul>
+        </div>
+    </div>
+</div>
+<!-- Navbar -->
+<!-- Header -->
+<header class="header header-bg header-bottom-space header-bg-image">
+    <div class="container-fluid p-lg-0 custom-container-fluid">
+        <div class="row m-lg-0 align-items-center">
+            <div class="col-lg-6 p-lg-0">
+                <div class="max-585 ms-lg-auto">
+                    <div class="header-content header-content-white m-0">
+                        <h1>Best Machine Learning Product Creator</h1>
+                        <p>Transforming businesses with Artificial Intelligence</p>
+                        <div class="button-group button-group-animated">
+                            <a href="https://www.dextools.io/app/en/ether/pair-explorer/" class="btn main-btn">Dextools Chart</a>
+                            <a href="https://t.me/ErudexAiPortal" class="btn main-btn main-btn-white">Telegram Group</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </header>
+<!-- Header -->

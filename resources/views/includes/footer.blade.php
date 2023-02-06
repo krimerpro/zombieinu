@@ -1,73 +1,90 @@
-    <!-- Footer start-->
-    <footer id="contact" class="footer1">
+<!-- Footer -->
+<footer class="bg-off-white footer">
+    <div class="footer-lower bg-blue position-relative">
         <div class="container">
-            <div class="pt-3 pb-3">
-                <div class="row justify-content-between">
-                    <div class="col-auto mr-auto">
-                        <span class="copyright">Copyright 2023 VIZION All Rights Reserved.</span>
-                    </div>
-                    <div class="col-auto">
-                    </div>
-                </div>
+            <div class="footer-copyright-text footer-copyright-text-white">
+                <p>Copyright ©2023 Erudex. Designed & Developed By <span style="color:blue;font-weight:bold">Erudex Team</span></a></p>
             </div>
         </div>
-    </footer>
-    <!-- Footer stop-->
-    <!-- === back-to-top === -->
-    <div id="back-to-top">
-        <a class="top" id="top" href="#top"> <i class="ion-ios-arrow-up"></i> </a>
     </div>
-    <!-- === back-to-top End === -->
+</footer>
+<!-- Footer -->
+
+<!-- Scroll-top -->
+<div class="scroll-top" id="scrolltop">
+    <div class="scroll-top-inner">
+        <i class="icofont-long-arrow-up"></i>
+    </div>
 </div>
+<!-- Scroll-top -->
 
-<script src="{{ asset('/js/jquery-3.3.1.min.js') }}"></script>
-<!-- popper -->
-<script src="{{ asset('/js/popper.min.js') }}"></script>
-<!-- bootstrap -->
-<script src="{{ asset('/js/bootstrap.min.js') }}"></script>
-<!-- Owl Carousel -->
+<!-- Topbar-side-modal -->
+<div class="side-modal-wrapper">
+    <div class="side-modal">
+        <div class="side-modal-header">
+            <div class="side-modal-logo">
+                <a href="#"><img src="{{ asset('images/logo.png') }}" alt="logo"></a>
+            </div>
+            <div class="side-modal-close">
+                <i class="icofont-close"></i>
+            </div>
+        </div>
+        <div class="side-modal-body">
+            <div class="sidebar-info-content">
+                <h3>Follow Us</h3>
+                <ul class="social-list">
+                    <li>
+                        <a href="#" target="_blank"><i class="icofont-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank"><i class="icofont-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Topbar-side-modal -->
+
+<!-- Search-overlay -->
+<div class="search-overlay">
+    <div class="search-close">
+        <i class="icofont-close"></i>
+    </div>
+    <div class="search-form-area">
+        <div class="search-area-logo">
+            <a href="#">
+                <img src="{{ asset('images/logo-white.png') }}" alt="logo">
+            </a>
+        </div>
+        <form>
+            <div class="form-group search-form-group">
+                <input type="text" placeholder="Search..." class="form-control" autofocus="autofocus">
+                <button>
+                    <i class="icofont-search-1"></i>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- Search-overlay -->
+
+<!-- essential js -->
+<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="{{ asset('/js/jquery.min.js') }}"></script>
+<script src="{{ asset('/js/bootstrap.bundle.min.js') }}"></script>
+<!-- magnific popup js -->
+<script src="{{ asset('/js/jquery.magnific-popup.min.js') }}"></script>
+<!-- owl carousel js -->
 <script src="{{ asset('/js/owl.carousel.min.js') }}"></script>
-<!-- Slick Slider-->
-<script src="{{ asset('/js/slick.js') }}"></script>
-<!-- main -->
-<script src="{{ asset('/js/main.js') }}"></script>
-<script src="{{ asset('/revslider/js/revolution.tools.min.js') }}"></script>
-<script src="{{ asset('/revslider/js/rs6.min.js') }}"></script>
-<!--custom -->
-<script src="{{ asset('/js/custom.js') }}"></script>
-<script src="{{ asset('/js/vizion-circle.js') }}"></script>
-
-<script>
-    jQuery(function() {
-        tpj = jQuery;
-        if(tpj("#rev_slider_1_1").revolution == undefined){
-            revslider_showDoubleJqueryError("#rev_slider_1_1");
-        }else{
-            revapi1 = tpj("#rev_slider_1_1").show().revolution({
-                jsFileLocation:"./revslider/js",
-                sliderLayout:"fullwidth",
-                visibilityLevels:"1240,1024,778,480",
-                gridwidth:1240,
-                gridheight:900,
-                minHeight:"",
-                spinner:"spinner0",
-                editorheight:"900,768,960,720",
-                responsiveLevels:"1240,1024,778,480",
-                disableProgressBar:"on",
-                navigation: {
-                    onHoverStop:false
-                },
-                parallax: {
-                    levels:[1,2,3,4,5,6,7,8,9,10,11,12,49,50,51,30],
-                    type:"mouse",
-                    origo:"slideCenter",
-                    speed:0
-                },
-                fallbacks: {
-                    allowHTML5AutoPlayOnAndroid:true
-                },
-            });
-        }
-
-    });
-</script>
+<!-- nice select js -->
+<script src="{{ asset('/js/jquery.nice-select.min.js') }}"></script>
+<!-- form ajazchimp js -->
+<script src="{{ asset('/js/jquery.ajaxchimp.min.js') }}"></script>
+<!-- form validator js  -->
+<script src="{{ asset('/js/form-validator.min.js') }}"></script>
+<!-- contact form js -->
+<script src="{{ asset('/js/contact-form-script.js') }}"></script>
+<!-- meanmenu js -->
+<script src="{{ asset('/js/jquery.meanmenu.min.js') }}"></script>
+<!-- main js -->
+<script src="{{ asset('/js/script.js') }}"></script>

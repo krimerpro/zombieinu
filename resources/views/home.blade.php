@@ -1,453 +1,332 @@
 @extends('layouts.default')
 @section('content')
 
-<div class="main-content">
-    <section class="pt-0">
-        <div class="row no-padding">
-            <div class="col-sm-12">
-                <!-- START space science REVOLUTION SLIDER 6.1.5 -->
-                <rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery" style="background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
-                    <rs-module id="rev_slider_1_1" style="display:none;" data-version="6.1.5">
-                        <rs-slides>
-                            <rs-slide data-key="rs-1" data-title="Slide" data-anim="ei:d;eo:d;s:600;r:0;t:fade;sl:0;">
-                                <img src="images/space/space.png" title="space-banner" width="1920" height="1080" data-parallax="off" class="rev-slidebg" data-no-retina alt="rev-image">
-                                <!--
-                                   -->
-                                <rs-layer
-                                        id="slider-1-slide-1-layer-0"
-                                        class="rs-pxl-3"
-                                        data-type="text"
-                                        data-color="#fff"
-                                        data-rsp_ch="on"
-                                        data-xy="x:c;xo:230px;y:c;yo:-10px;"
-                                        data-text="w:normal;s:250;l:250;ls:2;fw:600;a:center;"
-                                        data-dim="minh:0px;"
-                                        data-frame_0="sX:0.9;sY:0.9;"
-                                        data-frame_1="st:2000;sp:1000;"
-                                        data-frame_999="o:0;st:w;"
-                                        style="z-index:9;font-family:Poppins;text-transform:uppercase;"
-                                >AI
-                                </rs-layer>
-                                <!--
-                                   -->
-                                <rs-layer
-                                        id="slider-1-slide-1-layer-1"
-                                        class="rs-pxl-3"
-                                        data-type="text"
-                                        data-color="#ffffff"
-                                        data-rsp_ch="on"
-                                        data-xy="x:c;xo:229px;y:c;yo:130px;"
-                                        data-text="w:normal;s:30;l:30;a:center;"
-                                        data-frame_0="sX:0.9;sY:0.9;"
-                                        data-frame_1="st:2000;sp:1000;"
-                                        data-frame_999="o:0;st:w;"
-                                        style="z-index:10;font-family:Poppins;text-transform:uppercase;"
-                                >VIZION
-                                </rs-layer>
-                                <!--
-                                   -->
-                                <rs-layer
-                                        id="slider-1-slide-1-layer-2"
-                                        data-type="image"
-                                        data-rsp_ch="on"
-                                        data-xy="x:c;xo:237px;y:c;yo:50px;"
-                                        data-text="w:normal;"
-                                        data-dim="w:620px;h:730px;"
-                                        data-frame_0="sX:0.9;sY:0.9;"
-                                        data-frame_1="st:600;sp:1000;"
-                                        data-frame_999="o:0;st:w;"
-                                        style="z-index:8;"
-                                ><img src="images/space/orbit.png" width="724" height="853" data-no-retina alt="rev-image">
-                                </rs-layer>
-                                <!--
-                                   -->
-                                <rs-layer
-                                        id="slider-1-slide-1-layer-3"
-                                        class="rs-pxl-7"
-                                        data-type="image"
-                                        data-rsp_ch="on"
-                                        data-xy="x:c;xo:-191px;y:c;yo:129px;"
-                                        data-text="w:normal;"
-                                        data-dim="w:116px;h:127px;"
-                                        data-frame_0="sX:0.9;sY:0.9;"
-                                        data-frame_1="st:1300;sp:1000;"
-                                        data-frame_999="o:0;st:w;"
-                                        style="z-index:11;"
-                                ><img src="images/space/astro.png" width="116" height="127" data-no-retina alt="rev-image">
-                                </rs-layer>
-                                <!--
-                                   -->
-                                <rs-layer
-                                        id="slider-1-slide-1-layer-4"
-                                        class="rs-pxl-5"
-                                        data-type="image"
-                                        data-rsp_ch="on"
-                                        data-xy="x:c;xo:535px;y:c;yo:11px;"
-                                        data-text="w:normal;"
-                                        data-dim="w:103px;h:138px;"
-                                        data-frame_0="sX:0.9;sY:0.9;"
-                                        data-frame_1="st:1300;sp:1000;"
-                                        data-frame_999="o:0;st:w;"
-                                        style="z-index:12;"
-                                ><img src="images/space/blur-rock.png" width="103" height="138" data-no-retina alt="rev-image">
-                                </rs-layer>
-                                <!--
-                                   -->
-                                <rs-layer
-                                        id="slider-1-slide-1-layer-5"
-                                        class="rs-pxl-2"
-                                        data-type="image"
-                                        data-rsp_ch="on"
-                                        data-xy="x:r;xo:-70px;y:b;yo:20px;"
-                                        data-text="w:normal;"
-                                        data-dim="w:87px;h:104px;"
-                                        data-frame_0="sX:0.9;sY:0.9;"
-                                        data-frame_1="st:1300;sp:1000;"
-                                        data-frame_999="o:0;st:w;"
-                                        style="z-index:13;"
-                                ><img src="images/space/rock.png" width="87" height="104" data-no-retina alt="rev-image">
-                                </rs-layer>
-                                <!--
-                                   -->
-                                <rs-layer
-                                        id="slider-1-slide-1-layer-6"
-                                        class="rs-pxl-3"
-                                        data-type="image"
-                                        data-rsp_ch="on"
-                                        data-xy="x:r;xo:-153px;y:48px;"
-                                        data-text="w:normal;"
-                                        data-dim="w:95px;h:63px;"
-                                        data-frame_0="sX:0.9;sY:0.9;"
-                                        data-frame_1="st:1300;sp:1000;"
-                                        data-frame_999="o:0;st:w;"
-                                        style="z-index:14;"
-                                ><img src="images/space/lend-rock.png" width="95" height="63" data-no-retina alt="rev-image">
-                                </rs-layer>
-                                <!--
-                                   -->
-                                <rs-layer
-                                        id="slider-1-slide-1-layer-7"
-                                        class="rs-pxl-4"
-                                        data-type="image"
-                                        data-rsp_ch="on"
-                                        data-xy="x:-125px;y:b;yo:36px;"
-                                        data-text="w:normal;"
-                                        data-dim="w:106px;h:114px;"
-                                        data-frame_0="sX:0.9;sY:0.9;"
-                                        data-frame_1="st:1300;sp:1000;"
-                                        data-frame_999="o:0;st:w;"
-                                        style="z-index:15;"
-                                ><img src="images/space/round-rock.png" width="106" height="114" data-no-retina alt="rev-image">
-                                </rs-layer>
-                                <!--
-                                   -->
-                                <rs-layer
-                                        id="slider-1-slide-1-layer-8"
-                                        class="rs-pxl-2"
-                                        data-type="image"
-                                        data-rsp_ch="on"
-                                        data-xy="x:-111px;y:104px;"
-                                        data-text="w:normal;"
-                                        data-dim="w:63px;h:75px;"
-                                        data-frame_0="sX:0.9;sY:0.9;"
-                                        data-frame_1="st:1300;sp:1000;"
-                                        data-frame_999="o:0;st:w;"
-                                        style="z-index:16;"
-                                ><img src="images/space/slim-rock.png" width="63" height="75" data-no-retina alt="rev-image">
-                                </rs-layer>
-                                <!--
-                                   -->
-                                <rs-layer
-                                        id="slider-1-slide-1-layer-9"
-                                        class="rs-pxl-2"
-                                        data-type="image"
-                                        data-rsp_ch="on"
-                                        data-xy="x:c;xo:-565px;y:c;yo:-36px;"
-                                        data-text="w:normal;"
-                                        data-dim="w:118px;h:99px;"
-                                        data-frame_0="sX:0.9;sY:0.9;"
-                                        data-frame_1="st:1300;sp:1000;"
-                                        data-frame_999="o:0;st:w;"
-                                        style="z-index:17;"
-                                ><img src="images/space/blur-round-rock.png" width="118" height="99" data-no-retina alt="rev-image">
-                                </rs-layer>
-                                <!--
-                                   -->
-                                <h6
-                                        id="slider-1-slide-1-layer-10"
-                                        class="rs-layer"
-                                        data-type="text"
-                                        data-color="#ffffff"
-                                        data-rsp_ch="on"
-                                        data-xy="x:20px;y:b;yo:92px;"
-                                        data-text="w:normal;"
-                                        data-frame_0="x:-50;"
-                                        data-frame_1="st:2400;sp:1000;"
-                                        data-frame_999="o:0;st:w;"
-                                        style="z-index:23;font-family:Questrial;"
-                                >INVEST
-                                </h6>
-                                <!--
-                                   -->
-                                <h6
-                                        id="slider-1-slide-1-layer-11"
-                                        class="rs-layer"
-                                        data-type="text"
-                                        data-color="#ffffff"
-                                        data-rsp_ch="on"
-                                        data-xy="x:160px;y:b;yo:92px;"
-                                        data-text="w:normal;"
-                                        data-frame_0="x:-50;"
-                                        data-frame_1="st:2400;sp:1000;"
-                                        data-frame_999="o:0;st:w;"
-                                        style="z-index:19;font-family:Questrial;"
-                                >FOR<br />
-                                </h6>
-                                <!--
-                                   -->
-                                <h6
-                                        id="slider-1-slide-1-layer-12"
-                                        class="rs-layer"
-                                        data-type="text"
-                                        data-color="#ffffff"
-                                        data-rsp_ch="on"
-                                        data-xy="x:260px;y:b;yo:91px;"
-                                        data-text="w:normal;"
-                                        data-frame_0="x:-50;"
-                                        data-frame_1="st:2400;sp:1000;"
-                                        data-frame_999="o:0;st:w;"
-                                        style="z-index:18;font-family:Questrial;"
-                                >FUTURE<br />
-                                </h6>
-                                <!--
-                                   -->
-
-                                <!--
-                                   -->
-                            </rs-slide>
-                        </rs-slides>
-                        <rs-progress class="rs-bottom" style="visibility: hidden !important;"></rs-progress>
-                    </rs-module>
-                </rs-module-wrap>
-                <!-- END REVOLUTION SLIDER -->
-            </div>
-        </div>
-    </section>
-    <section class="pt-0" id="about">
-        <div class="row" style="padding-top:50px">&nbsp;</div>
-
+<!-- Feature-section -->
+<div class="feature-section pb-70 section-to-header">
+    <div class="container">
         <div class="container">
-            <div class="row overflow-hidden">
-                <div class="col-sm-6 col-lg-4 col-md-4">
-                    <div class="iq-health-services wow fadeInUp text-center  iq-space" data-wow-duration="0.9s">
-                        <div class="iq-health-icon iq-bg-dark">
-                            <img src="images/space/asset-10.png" alt="fancy"/>
-                        </div>
-                        <div class="iq-health-info">
-                            <h4 class="mb-2">Study</h4>
-                            <p>Big process behind the scene</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-md-4">
-                    <div class="iq-health-services wow fadeInUp text-center  iq-space" data-wow-duration="0.9s">
-                        <div class="iq-health-icon iq-bg-dark">
-                            <img src="images/space/asset-11.png" alt="fancy"/>
-                        </div>
-                        <div class="iq-health-info">
-                            <h4 class="mb-2">Remember</h4>
-                            <p>The most hype project on Ethereum</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-lg-4 col-md-4">
-                    <div class="iq-health-services wow fadeInUp text-center  iq-space" data-wow-duration="0.9s">
-                        <div class="iq-health-icon iq-bg-dark" >
-                            <img src="images/space/asset-12.png" alt="fancy"/>
-                        </div>
-                        <div class="iq-health-info">
-                            <h4 class="mb-2">Take Off</h4>
-                            <p>Full support by big whales</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="bg-earth pt-0">
-        <div class="container">
-            <div class="row overflow-hidden">
-                <div class="col-sm-12">
-                    <div class="container">
-                        <div class="row space_bg row-eq-height align-items-center row-flex">
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <div class="title-box title-white text-left text-white" >
-                                    <h2 class="title font-weight-bold">Exploratrion</h2>
-                                    <p class="sub-title">Our professional team will do so many research for better products</p>
-                                </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 pb-30">
+                    <div class="feature-card">
+                        <div class="feature-card-header">
+                            <div class="feature-card-thumb feature-card-thumb-green">
+                                <i class="flaticon-machine-learning-1"></i>
                             </div>
-                            <div class="col-sm-12 col-lg-6 col-md-6">
-                                <div  class="wow fadeInUp  space_img">
-                                    <img width="467" height="690" src="images/space/rocket.png" class="img-fluid attachment-full" alt="space-image" />
-                                </div>
+                            <span>Low Tax</span>
+                        </div>
+                        <div class="feature-card-body">
+                            <p>7% Tax Buy & Sell</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 pb-30">
+                    <div class="feature-card">
+                        <div class="feature-card-header">
+                            <div class="feature-card-thumb feature-card-thumb-yellow">
+                                <i class="flaticon-voice-recognition"></i>
                             </div>
+                            <span>Anti Whale & Dump</span>
+                        </div>
+                        <div class="feature-card-body">
+                            <p>3.5% Max Wallet & Transaction</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 pb-30">
+                    <div class="feature-card">
+                        <div class="feature-card-header">
+                            <div class="feature-card-thumb feature-card-thumb-blue">
+                                <i class="flaticon-machine-learning"></i>
+                            </div>
+                            <span>Low of Supply</span>
+                        </div>
+                        <div class="feature-card-body">
+                            <p>50.000.000 $Erudex Tokens</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 pb-30">
+                    <div class="feature-card">
+                        <div class="feature-card-header">
+                            <div class="feature-card-thumb feature-card-thumb-violet">
+                                <i class="flaticon-processor"></i>
+                            </div>
+                            <span>Initial Liquidity</span>
+                        </div>
+                        <div class="feature-card-body">
+                            <p>1 ETH for Liquidity</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="p-0" id="tokenomic">
-        <div class="row" style="padding-top:50px">&nbsp;</div>
-        <div class="container-fluid">
-            <div class="row overflow-hidden">
-                <div class="col-sm-12 ">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="title-box title-white text-center" style="color:rgb(19, 18, 18)" >
-                                <h2 class="title font-weight-bold">TOKENOMIC</h2>
-                            </div>
+    </div>
+</div>
+<!-- Feature-section -->
+<!-- About-section -->
+<section class="about-section bg-off-white pt-100 pb-70" id="about">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 pb-30">
+                <div class="about-section-item about-item-image text-center">
+                    <img src="{{ asset('images/feature-shape/feature-shape-1.png') }}" alt="shape">
+                </div>
+            </div>
+            <div class="col-lg-6 pb-30">
+                <div class="about-section-item about-item-details">
+                    <div class="section-title section-title-left text-start">
+                        <small>About Us</small>
+                        <h2>Mission Is To Bring The Power Of Erudex AI To Every Business</h2>
+                    </div>
+                    <div class="about-content">
+                        <ul>
+                            <li>Advance Advisory Team</li>
+                            <li>Advance Quality Experts</li>
+                            <li>Many variations of passages</li>
+                            <li>High-Quality Results</li>
+                        </ul>
+                        <a href="#" class="btn main-btn">About Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About-section -->
+<!-- Service-section -->
+<section class="service-section pt-100 pb-70" id="services">
+    <div class="container">
+        <div class="section-title section-title-lg">
+            <small>Services</small>
+            <h2>Our Purpose Is To Deliver Excellence <br> In Service And Execution</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 pb-30">
+                <div class="service-card">
+                    <div class="service-card-thumb">
+                        <i class="flaticon-automation"></i>
+                    </div>
+                    <div class="service-card-body">
+                        <h3>Robotic Automation</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 pb-30">
+                <div class="service-card">
+                    <div class="service-card-thumb">
+                        <i class="flaticon-predictive-chart"></i>
+                    </div>
+                    <div class="service-card-body">
+                        <h3>Predictive Analytics</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 pb-30">
+                <div class="service-card">
+                    <div class="service-card-thumb">
+                        <i class="flaticon-deep-learning"></i>
+                    </div>
+                    <div class="service-card-body">
+                        <h3>Deep Learning</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 pb-30">
+                <div class="service-card">
+                    <div class="service-card-thumb">
+                        <i class="flaticon-data-mining"></i>
+                    </div>
+                    <div class="service-card-body">
+                        <h3>Data Mining</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 pb-30">
+                <div class="service-card">
+                    <div class="service-card-thumb">
+                        <i class="flaticon-diagram"></i>
+                    </div>
+                    <div class="service-card-body">
+                        <h3>Statistical Modeling</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 pb-30">
+                <div class="service-card">
+                    <div class="service-card-thumb">
+                        <i class="flaticon-machine-learning-2"></i>
+                    </div>
+                    <div class="service-card-body">
+                        <h3>Security & Surveillance</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Service-section -->
+<!-- Choose-section -->
+<section class="choose-section pt-100 pb-70 bg-off-white">
+    <div class="container">
+        <div class="section-title">
+            <small>Why Choose Us</small>
+            <h2>Why People Choose Erudex For ML Services</h2>
+        </div>
+        <div class="process-content">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4 pb-30">
+                    <div class="process-item process-item-center border">
+                        <div class="process-thumb">
+                            <img src="{{ asset('images/process/process-four.png') }}" alt="shape">
+                        </div>
+                        <div class="process-text">
+                            <h3>Easy Model Building</h3>
                         </div>
                     </div>
-                    <div class="row iq-pb-100 mb-5">
-                        <div class="col-sm-12 col-lg-3 col-md-6">
-                            <div class="iq-space-counter wow fadeInUp" data-wow-duration="0.9s"  style="box-shadow: 0px 0px 65px 0px #9b0418,inset 0px 0px 54px 0px #9b0418;">
-                                <span class="timer" data-to="6" data-speed="1000">6</span>
-                                <span class="timer-text">%</span>
-                                <h6>TAX</h6>
-                            </div>
+                </div>
+                <div class="col-md-6 col-lg-4 pb-30">
+                    <div class="process-item process-item-center border">
+                        <div class="process-thumb">
+                            <img src="{{ asset('images/process/process-five.png') }}" alt="shape">
                         </div>
-                        <div class="col-sm-12 col-lg-3 col-md-6">
-                            <div class="iq-space-counter wow fadeInUp" data-wow-duration="0.9s"  style="box-shadow: 0px 0px 65px 0px #5748eb,inset 0px 0px 54px 0px #5748eb;">
-                                <span class="timer" data-to="3" data-speed="1000">3</span>
-                                <span class="timer-text">%</span>
-                                <h6>MAX BAG & TX</h6>
-                            </div>
+                        <div class="process-text">
+                            <h3>Robust ML Production Anywhere</h3>
                         </div>
-                        <div class="col-sm-12 col-lg-3 col-md-6">
-                            <div class="iq-space-counter wow fadeInUp" data-wow-duration="0.9s"  style="box-shadow: 0px 0px 65px 0px #eda15d,inset 0px 0px 54px 0px #eda15d;">
-                                <span class="timer" data-to="10000000" data-speed="5000">10000000</span>
-                                <span class="timer-text"></span>
-                                <h6>TOTAL SUPPLY</h6>
-                            </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 pb-30">
+                    <div class="process-item process-item-center border">
+                        <div class="process-thumb">
+                            <img src="{{ asset('images/process/process-six.png') }}" alt="shape">
                         </div>
-                        <div class="col-sm-12 col-lg-3 col-md-6">
-                            <div class="iq-space-counter wow fadeInUp" data-wow-duration="0.9s"  style="box-shadow: 0px 0px 65px 0px #62bcf8,inset 0px 0px 54px 0px #62bcf8;">
-                                <span class="timer" data-to="1" data-speed="1000">1</span>
-                                <span class="timer-text">ETH</span>
-                                <h6>INITIAL LP</h6>
-                            </div>
+                        <div class="process-text">
+                            <h3>Powerful Experimentation</h3>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section id="environment">
-        <div class="row" style="padding-top:50px">&nbsp;</div>
+    </div>
+</section>
+<!-- Choose-section -->
 
-        <div class="container">
-            <div class="row overflow-hidden">
-                <div class="col-sm-12">
-                    <div class="container">
-                        <div class="row row-eq-height align-items-center row-flex">
-                            <div class="pl-lg-5 col-sm-12 col-lg-6 col-md-6">
-                                <div class="title-box title-white text-left" style="color:#fff" >
-                                    <h2 class="title font-weight-bold">AI VIZION</h2>
-                                    <p class="sub-title">Our big services for you and for all human kind</p>
-                                </div>
-                            </div>
-                            <div class="col-sm-12 col-lg-6 col-md-6">
-                                <div class="vizion-feature-circle wow zoomIn postion-relative " style="margin-bottom:30px">
-                                    <div class="vizion-img">
-                                        <ul class="list-inline mb-0">
-                                            <li class="list-inline-item  ">
-                                                <div class="feature-info">
-                                                    <span class="img"></span>
-                                                    <h6>Object Detection</h6>
-                                                </div>
-                                            </li>
-                                            <li class="list-inline-item  ">
-                                                <div class="feature-info">
-                                                    <span class="img"></span>
-                                                    <h6>Robotics & Drones</h6>
-                                                </div>
-                                            </li>
-                                            <li class="list-inline-item  ">
-                                                <div class="feature-info">
-                                                    <span class="img"></span>
-                                                    <h6>Space Analysis</h6>
-                                                </div>
-                                            </li>
-                                            <li class="list-inline-item  ">
-                                                <div class="feature-info">
-                                                    <span class="img"></span>
-                                                    <h6>Planet Detection</h6>
-                                                </div>
-                                            </li>
-                                            <li class="list-inline-item  ">
-                                                <div class="feature-info">
-                                                    <span class="img"></span>
-                                                    <h6>Image Processing</h6>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                        <div class="dot-circle">
-                                            <div class="effect-circle"></div>
-                                        </div>
-                                        <div class="main-circle">
-                                            <div class="circle-bg">
-                                                <img src="images/loader.png" style="width:30%" alt="image">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+<!-- Project-section -->
+<section class="project-section pt-min-100 pb-100 bg-off-white" id="projects">
+    <div class="container">
+        <div class="section-title section-title-lg">
+            <h2>Erudex's Projects In Different Domain Of Industry</h2>
+            <p>Our purpose is to deliver excellence in service and execution Our purpose is to deliver excellence in service and Our purpose is to deliver excellence in service.</p>
+        </div>
+    </div>
+    <div class="container-fluid p-md-0">
+        <div class="project-carousel owl-carousel owl-theme default-carousel">
+            <div class="item">
+                <div class="project-flat-card">
+                    <div class="project-flat-thumb">
+                        <a href="#">
+                            <img src="{{ asset('images/cases/case-lg-1.jpg') }}" alt="project">
+                        </a>
+                    </div>
+                    <div class="project-flat-text">
+                        <h3><a href="#">Drone And Robot Training</a></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="project-flat-card">
+                    <div class="project-flat-thumb">
+                        <a href="#">
+                            <img src="{{ asset('images/cases/case-lg-3.jpg') }}" alt="project">
+                        </a>
+                    </div>
+                    <div class="project-flat-text">
+                        <h3><a href="#">Data Mining Revolution</a></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="project-flat-card">
+                    <div class="project-flat-thumb">
+                        <a href="#">
+                            <img src="{{ asset('images/cases/case-lg-2.jpg') }}" alt="project">
+                        </a>
+                    </div>
+                    <div class="project-flat-text">
+                        <h3><a href="#">Automatic Project Management</a></h3>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="pt-0">
-        <div class="row overflow-hidden">
-            <div class="col-sm-12">
-                <div class="container">
-                    <div class="row row-eq-height align-items-center row-flex">
-                        <div class="col-sm-12 col-lg-6 col-md-6">
-                            <div class="title-box title-white text-left text-white" >
-                                <h2 class="title font-weight-bold">Our Vizion</h2>
-                                <p class="sub-title">It will be a long story for us on Ethereum</p>
-                            </div>
-                            <ul class="iq-list-stylethree column-2 wow fadeInUp" data-wow-duration="0.9s">
-                                <li class="text-white"><i class="fa fa-check text-white "></i><span>Smart DAPP </span></li>
-                                <li class="text-white"><i class="fa fa-check text-white "></i><span>Token Scanner</span></li>
-                                <li class="text-white"><i class="fa fa-check text-white "></i><span>Full Decentralization</span></li>
-                                <li class="text-white"><i class="fa fa-check text-white "></i><span>Trusted Developers</span></li>
-                                <li class="text-white"><i class="fa fa-check text-white "></i><span>Fast Track</span></li>
-                                <li class="text-white"><i class="fa fa-check text-white "></i><span>Big Vizion for beter future</span></li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-12 col-lg-6 col-md-6  pb-3">
-                            <div  class="text-center wow fadeInDown space_img">
-                                <img width="413" height="422" src="images/space/astro.png" class="img-fluid attachment-full" alt="space-image" />
-                            </div>
-                            <div  class="wpb_single_image wpb_content_element vc_align_left   space_planet_img">
-                                <img width="150" height="119" src="images/space/marse.png" class="img-fluid attachment-thumbnail" alt="space-image" />
-                            </div>
-                            <div  class="wpb_single_image wpb_content_element vc_align_left   space_star_img">
-                                <img width="760" height="649" src="images/space/stars.png" class="img-fluid attachment-full" alt="space-image" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="pb-0">
+    </div>
+</section>
+<!-- Project-section -->
 
-        <div class="row overflow-hidden no-padding">
-            <img src="images/space/astro-foot.png" class="img-fluid attachment-full w-100" alt="space-image"/>
+<!-- News-section -->
+<section class="news-section pt-min-100 pb-70" id="news">
+    <div class="container">
+        <div class="section-title section-title-lg">
+            <h2>Upcoming News on Erudex AI</h2>
+            <p>Our purpose is to deliver excellence in service and execution Our purpose is to deliver excellence in service and Our purpose is to deliver excellence.</p>
         </div>
-    </section>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 pb-30">
+                <div class="blog-card">
+                    <div class="blog-card-image">
+                        <a href="#">
+                            <img src="{{ asset('images/blogs/blog-1.jpg') }}" alt="blog">
+                        </a>
+                    </div>
+                    <div class="blog-card-text">
+                        <div class="blog-category">Technology</div>
+                        <h3><a href="single-blog.html">Is Machine Learning Right Going On Good Way</a></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 pb-30">
+                <div class="blog-card">
+                    <div class="blog-card-image">
+                        <a href="#">
+                            <img src="{{ asset('images/blogs/blog-2.jpg') }}" alt="blog">
+                        </a>
+                    </div>
+                    <div class="blog-card-text">
+                        <div class="blog-category">Robot</div>
+                        <h3><a href="single-blog.html">The Current State Of Artificial Intelligence Infographic</a></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 offset-md-3 offset-lg-0 pb-30">
+                <div class="blog-card">
+                    <div class="blog-card-image">
+                        <a href="single-blog.html">
+                            <img src="{{ asset('images/blogs/blog-3.jpg') }}" alt="blog">
+                        </a>
+                    </div>
+                    <div class="blog-card-text">
+                        <div class="blog-category">Machine</div>
+                        <h3><a href="#">Our Company As A Global Leader In Big Data</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- News-section -->
+<!-- Newsletter-section -->
+<section class="newsletter-section pt-min-100 pb-100 page-bg page-bg-2 page-bg-overlay">
+    <div class="container position-relative">
+        <div class="section-title section-title-white">
+            <h2>Subscribe For Erudex's Newsletter</h2>
+            <p>Subscribe to our newsletter & stay updated</p>
+        </div>
+        <form class="newsletter-form">
+            <div class="form-group m-0 newsletter-form">
+                <input type="text" name="EMAIL" id="emails" class="form-control" placeholder="Enter Address*" required>
+                <button class="btn main-btn" type="submit">Subscribe</button>
+            </div>
+            <div id="validator-newsletter" class="form-result"></div>
+        </form>
+    </div>
+</section>
+<!-- Newsletter-section -->
 @stop

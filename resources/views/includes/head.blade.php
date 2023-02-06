@@ -3,35 +3,36 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<meta name="description" content="AI VIZION | ERC20">
-<meta name="keywords" content="ai, vizion, ethereum, aivizion, blockchain, cryptocurrency, erc20">
-<meta name="author" content="VIZION">
+<meta name="description" content="AI ERUDEX | MACHINE LEARNING">
+<meta name="keywords" content="ai, erudex, ethereum, machinelearning, blockchain, cryptocurrency, erc20">
+<meta name="author" content="ERUDEX">
 
-<title>AI VIZION | ERC20</title>
-<link rel="icon" type="image/x-icon" href="{{ asset('images/loader.png') }}">
+<title>AI ERUDEX | MACHINE LEARNING</title>
+<link rel="icon" type="image/x-icon" href="{{ asset('images/favicon.png') }}" sizes="16x16">
 
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,700" rel="stylesheet">
 
 <link href="{{ asset('css/font-awesome.min.css') }}" rel="stylesheet">
 
-
-<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
-<!-- Magnific Popup -->
-<link rel="stylesheet" type="text/css" href="{{ asset('css/magnific-popup.css') }}" />
-<!-- Typography CSS -->
-<link rel="stylesheet" href="{{ asset('css/typography.css') }}">
-<!-- Style CSS -->
-<link rel="stylesheet" href="{{ asset('css/style.css') }}">
-<!-- Responsive CSS -->
-<link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
-<!-- Healper Css-->
-<link rel="stylesheet" href="{{ asset('css/helper.css') }}">
-
-<link rel='stylesheet' href="{{ asset('css/flaticon.css') }}"/>
-<link rel='stylesheet' href="{{ asset('css/flaticon2.css') }}"/>
-<link rel='stylesheet' href="{{ asset('css/slick.css') }}" type='text/css' media='all' />
-<link rel='stylesheet' href="{{ asset('css/slick-theme.css') }}" type='text/css' media='all' />
-<link rel='stylesheet' href="{{ asset('revslider/css/rs6.css') }}" type='text/css' media='all'>
-<link rel="stylesheet" href="{{ asset('css/brown.css') }}">
-<link rel="stylesheet" href="{{ asset('css/custom.css') }}">
+<!-- bootstrap css -->
+<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" type="text/css" media="all" />
+<!-- animate css -->
+<link rel="stylesheet" href="{{ asset('css/animate.min.css') }}" type="text/css" media="all" />
+<!-- owl carousel css -->
+<link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}"  type="text/css" media="all" />
+<link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}"  type="text/css" media="all" />
+<!-- meanmenu css -->
+<link rel="stylesheet" href="{{ asset('css/meanmenu.min.css') }}" type="text/css" media="all" />
+<!-- magnific popup css -->
+<link rel="stylesheet" href="{{ asset('css/magnific-popup.min.css') }}" type="text/css" media="all" />
+<!-- boxicons css -->
+<link rel='stylesheet' href="{{ asset('css/icofont.min.css') }}" type="text/css" media="all" />
+<!-- flaticon css -->
+<link rel='stylesheet' href="{{ asset('css/flaticon.css') }}" type="text/css" media="all" />
+<!-- nice select css -->
+<link rel="stylesheet" href="{{ asset('css/nice-select.css') }}" type="text/css" media="all" />
+<!-- style css -->
+<link rel="stylesheet" href="{{ asset('css/style.css') }}" type="text/css" media="all" />
+<!-- responsive css -->
+<link rel="stylesheet" href="{{ asset('css/responsive.css') }}" type="text/css" media="all" />
