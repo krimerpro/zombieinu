@@ -85,7 +85,7 @@
                         <h1>Best Machine Learning Product Creator</h1>
                         <p>Transforming businesses with Artificial Intelligence</p>
                         <div class="button-group button-group-animated">
-                            <a href="https://www.dextools.io/app/en/ether/pair-explorer/0xebe158944928f61a5649af2e87bfbe4cc0135a77" class="btn main-btn">Dextools Chart</a>
+                            <a href="https://www.dextools.io/app/en/ether/pair-explorer/" class="btn main-btn">Dextools Chart</a>
                             <a href="https://t.me/ErudexAiPortal" class="btn main-btn main-btn-white">Telegram Group</a>
                         </div>
                     </div>
