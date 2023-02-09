@@ -15,7 +15,7 @@
                             <span>Low Tax</span>
                         </div>
                         <div class="feature-card-body">
-                            <p>7% Tax Buy & Sell</p>
+                            <p>4% Tax Buy & Sell</p>
                         </div>
                     </div>
                 </div>
@@ -28,7 +28,7 @@
                             <span>Anti Whale & Dump</span>
                         </div>
                         <div class="feature-card-body">
-                            <p>3.5% Max Wallet & Transaction</p>
+                            <p>4% Max Wallet & Transaction</p>
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                             <span>Initial Liquidity</span>
                         </div>
                         <div class="feature-card-body">
-                            <p>1 ETH for Liquidity</p>
+                            <p>2 BNB for Liquidity</p>
                         </div>
                     </div>
                 </div>

@@ -4,7 +4,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 <meta name="description" content="AI ERUDEX | MACHINE LEARNING">
-<meta name="keywords" content="ai, erudex, ethereum, machinelearning, blockchain, cryptocurrency, erc20">
+<meta name="keywords" content="ai, erudex, smartchain, machinelearning, blockchain, cryptocurrency, bsc">
 <meta name="author" content="ERUDEX">
 
 <title>AI ERUDEX | MACHINE LEARNING</title>
