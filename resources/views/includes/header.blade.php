@@ -85,7 +85,7 @@
                         <h1>Best Machine Learning Product Creator</h1>
                         <p>Transforming businesses with Artificial Intelligence</p>
                         <div class="button-group button-group-animated">
-                            <a href="https://poocoin.app/tokens/0x82bd49c62919D59081B01b84F98B132bc8125C56" class="btn main-btn">Poocoin Chart</a>
+                            <a href="https://poocoin.app/tokens/0x0F627B150bFAb61c57ceDa3beC4F82c10C7e05Ce" class="btn main-btn">Poocoin Chart</a>
                             <a href="https://t.me/ErudexAiPortal" class="btn main-btn main-btn-white">Telegram Group</a>
                         </div>
                     </div>
