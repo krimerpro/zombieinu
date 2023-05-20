@@ -13,7 +13,7 @@
     <br/>
     <p>Total Supply : 100,000,000 $ZOMBIE</p>
     <p>Tax : 5/5</p>
-    <p>Max : 2/2</p>
+    <p>Max : 4/4</p>
   </div>
 
   <div id="texture" class="bg-image"  data-bg-image="{{ asset('images/texture.png') }}" ></div>
