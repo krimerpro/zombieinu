@@ -8,8 +8,8 @@
         Next generation of meme token on BSC!
     </p>
     <a class="le-btn" href="https://t.me/ZombieInuPortal" >Join Us</a>
-    <a class="le-btn" href="https://poocoin.app/tokens/0x20821A4115827b04a0c3a3Edc1c43DE84F99f550" >Chart</a>
-    <a class="le-btn" href="https://pancakeswap.finance/swap?outputCurrency=0x20821A4115827b04a0c3a3Edc1c43DE84F99f550" >Buy $ZOMBIE</a>
+    <a class="le-btn" href="https://poocoin.app/tokens/0x" >Chart</a>
+    <a class="le-btn" href="https://pancakeswap.finance/swap?outputCurrency=0x" >Buy $ZOMBIE</a>
     <br/>
     <p>Total Supply : 100,000,000 $ZOMBIE</p>
     <p>Tax : 5/5</p>
